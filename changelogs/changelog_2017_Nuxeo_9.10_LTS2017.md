@@ -2,7 +2,6 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
-<tr><td colspan="1"><a href="#hotfix-27">Hotfix 27</a></td><td colspan="1">2019-02-12</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-26">Hotfix 26</a></td><td colspan="1">2019-01-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-25">Hotfix 25</a></td><td colspan="1">2019-01-01</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-24">Hotfix 24</a></td><td colspan="1">2018-12-18</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-24">Yes</a></td></tr>
@@ -31,21 +30,6 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2018-02-08</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-01">Yes</a></td></tr>
 </tbody></table></div>
 
-## [Hotfix 27](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19712)
-#### Main correction(s) provided
-<div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-853">ELEMENTS-853</a></td><td colspan="1">Group name/id is not sanitized before creation</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-850">ELEMENTS-850</a></td><td colspan="1">Fix notification email input's wrapping when assigning permission</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26665">NXP-26665</a></td><td colspan="1">Fix DocumentNotFoundException with BridgeTagService</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24700">NXP-24700</a></td><td colspan="1">Fix widget 'Multiple generic suggestion (advanced)' when used in a multi-valued complex property</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24867">NXP-24867</a></td><td colspan="1">Types configuration in children with same settings does not work</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26525">NXP-26525</a></td><td colspan="1">Fix storage of default values in the database</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24868">NXP-24868</a></td><td colspan="1">Download through contextual menu in content view does not work</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25187">NXP-25187</a></td><td colspan="1">Fix OpenID module authentication</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26696">NXP-26696</a></td><td colspan="1">Fix LogEntryProvider#queryLogs(AuditQueryBuilder) when using Predicates#in</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26683">NXP-26683</a></td><td colspan="1">Fix rendition download to use proper reason/rendition in permission check</td></tr>
-</tbody></table></div>
-
 ## [Hotfix 26](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19591)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
@@ -62,7 +46,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24953">NXP-24953</a></td><td colspan="1">DocumentNotFoundException when restoring a version bound to deleted template</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25744">NXP-25744</a></td><td colspan="1">CAS+Anonymous: requesting a protected binary using an authorized user leads to CAS logout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25077">NXP-25077</a></td><td colspan="1">Fix use of deprecated property 'file:filename' in addon 'nuxeo-groups-rights-audit'</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24449">NXP-24449</a></td><td colspan="1">Fix infinite redirect loop when anonymous user signs out and wants to come back</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26576">NXP-26576</a></td><td colspan="1">Make S3 upload work with instance roles</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26572">NXP-26572</a></td><td colspan="1">Missing workflow translations</td></tr>
 </tbody></table></div>
