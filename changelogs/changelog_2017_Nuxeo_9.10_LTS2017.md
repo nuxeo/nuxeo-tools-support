@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-27">Hotfix 27</a></td><td colspan="1">2019-02-12</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-26">Hotfix 26</a></td><td colspan="1">2019-01-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-25">Hotfix 25</a></td><td colspan="1">2019-01-01</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-24">Hotfix 24</a></td><td colspan="1">2018-12-18</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-24">Yes</a></td></tr>
@@ -28,6 +29,23 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2018-03-12</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-03">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2018-02-22</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2018-02-08</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-01">Yes</a></td></tr>
+</tbody></table></div>
+
+## [Hotfix 27](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19712)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-853">ELEMENTS-853</a></td><td colspan="1">Group name/id is not sanitized before creation</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-850">ELEMENTS-850</a></td><td colspan="1">Fix notification email input's wrapping when assigning permission</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26665">NXP-26665</a></td><td colspan="1">Fix DocumentNotFoundException with BridgeTagService</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24700">NXP-24700</a></td><td colspan="1">Fix widget 'Multiple generic suggestion (advanced)' when used in a multi-valued complex property</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24867">NXP-24867</a></td><td colspan="1">Types configuration in children with same settings does not work</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26525">NXP-26525</a></td><td colspan="1">Fix storage of default values in the database</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24868">NXP-24868</a></td><td colspan="1">Download through contextual menu in content view does not work</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25187">NXP-25187</a></td><td colspan="1">Fix OpenID module authentication</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26696">NXP-26696</a></td><td colspan="1">Fix LogEntryProvider#queryLogs(AuditQueryBuilder) when using Predicates#in</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26683">NXP-26683</a></td><td colspan="1">Fix rendition download to use proper reason/rendition in permission check</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25812">NXP-25812</a></td><td colspan="1">Republishing a document removes its alerts subscriptions</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26405">NXP-26405</a></td><td colspan="1">Elasticsearch error after copying a document from a Proxy document</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 26](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19591)
@@ -244,14 +262,14 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25430">NXP-25430</a></td><td colspan="1">Deliver latest lazy rendition even if stale stored rendition exists</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25362">NXP-25362</a></td><td colspan="1">Fix nuxeo-dropzone in edit layout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25709">NXP-25709</a></td><td colspan="1">Fix usage of boost in Elasticsearch hints</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25690">NXP-25690</a></td><td colspan="1">Cannot use system property as a page provider aggregate</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25629">NXP-25629</a></td><td colspan="1">Backport NXP-24657 "Fix random failure on org.nuxeo.ftest.cap.ITNoteDocumentTest.testCreateAndEditNote" to 9.10 </td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25619">NXP-25619</a></td><td colspan="1">Coalescing Work with StreamWorkManager implementation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25727">NXP-25727</a></td><td colspan="1">Fix random WebEngine module initialization issue</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25668">NXP-25668</a></td><td colspan="1">Installation command of several packages will be split into one install command per line</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25773">NXP-25773</a></td><td colspan="1">Reading recently viewed trashed document results in 404</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25588">NXP-25588</a></td><td colspan="1">Keep Only editable workflow variables in bulk task process</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25586">NXP-25586</a></td><td colspan="1">Display an appropriate message when the quota is reached on WebDAV</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25690">NXP-25690</a></td><td colspan="1">Cannot use system property as a page provider aggregate</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25619">NXP-25619</a></td><td colspan="1">Coalescing Work with StreamWorkManager implementation</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -441,11 +459,11 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25068">NXP-25068</a></td><td colspan="1">Fix Download key in Blob.BulkDownload operation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25105">NXP-25105</a></td><td colspan="1">Make nuxeo-vocabulary-management handle directory schemas with uppercase characters</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24820">NXP-24820</a></td><td colspan="1">Investigate on a possible memory leak with WebUI</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24789">NXP-24789</a></td><td colspan="1">Fix WebUI anonymous user can access too much information</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24682">NXP-24682</a></td><td colspan="1">duplicate values shown when only one field should</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24523">NXP-24523</a></td><td colspan="1">Fix nuxeo-diff error when using a field with a constraint</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24514">NXP-24514</a></td><td colspan="1">Only move selected documents in Ordered Folder</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24185">NXP-24185</a></td><td colspan="1">Adding an alert on a proxy generates an error</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24789">NXP-24789</a></td><td colspan="1">Fix WebUI anonymous user can access too much information</td></tr>
 </tbody></table></div>
 
 #### Task(s)
