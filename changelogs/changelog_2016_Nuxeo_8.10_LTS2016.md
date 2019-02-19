@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-42">Hotfix 42</a></td><td colspan="1">2019-02-19</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-41">Hotfix 41</a></td><td colspan="1">2019-01-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-40">Hotfix 40</a></td><td colspan="1">2018-12-17</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-39">Hotfix 39</a></td><td colspan="1">2018-11-22</td><td colspan="1">No</td></tr>
@@ -43,6 +44,26 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2017-03-23</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2017-03-01</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2017-02-15</td><td colspan="1"><a href="https://doc.nuxeo.com/810/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2016/#hotfix-01">Yes</a></td></tr>
+</tbody></table></div>
+
+## [Hotfix 42](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19611)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26604">NXP-26604</a></td><td colspan="1">Fix page provider with unrestricted session property when overriden to use elasticsearch</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25744">NXP-25744</a></td><td colspan="1">CAS+Anonymous: requesting a protected binary using an authorized user leads to CAS logout</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24953">NXP-24953</a></td><td colspan="1">DocumentNotFoundException when restoring a version bound to deleted template</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24867">NXP-24867</a></td><td colspan="1">Types configuration in children with same settings does not work</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24700">NXP-24700</a></td><td colspan="1">Fix widget 'Multiple generic suggestion (advanced)' when used in a multi-valued complex property</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26697">NXP-26697</a></td><td colspan="1">Update AWS SDK to latest version 1.11.475 (8.10 backport)</td></tr>
+</tbody></table></div>
+
+#### Clean up(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24329">NXP-24329</a></td><td colspan="1">Reduce target footprint size after Nuxeo Package build</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 41](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19582)
