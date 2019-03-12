@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-43">Hotfix 43</a></td><td colspan="1">2019-03-12</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-42">Hotfix 42</a></td><td colspan="1">2019-02-19</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-41">Hotfix 41</a></td><td colspan="1">2019-01-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-40">Hotfix 40</a></td><td colspan="1">2018-12-17</td><td colspan="1">No</td></tr>
@@ -44,6 +45,18 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2017-03-23</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2017-03-01</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2017-02-15</td><td colspan="1"><a href="https://doc.nuxeo.com/810/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2016/#hotfix-01">Yes</a></td></tr>
+</tbody></table></div>
+
+## [Hotfix 43](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19739)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26637">NXP-26637</a></td><td colspan="1">Fix user resolution in 'Terms' aggregates widget</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24869">NXP-24869</a></td><td colspan="1">Main attachment preview does not work when document has the Folderish facet</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26852">NXP-26852</a></td><td colspan="1">Add LTS version variable</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 42](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19611)
