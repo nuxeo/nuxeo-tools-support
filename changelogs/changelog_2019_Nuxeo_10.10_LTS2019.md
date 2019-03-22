@@ -11,7 +11,6 @@
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-814">ELEMENTS-814</a></td><td colspan="1">Video storyboard should not overlap blob details and metadata display</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-895">ELEMENTS-895</a></td><td colspan="1">Video player does not work in Safari (Web UI)</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26781">NXP-26781</a></td><td colspan="1">Add a default ES mapping for ecm:title</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26917">NXP-26917</a></td><td colspan="1">Missing translations in nuxeo-diff</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-14863">NXP-14863</a></td><td colspan="1">Batch initial statistics computation of quotas</td></tr>
@@ -19,6 +18,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27025">NXP-27025</a></td><td colspan="1">Audit search date filter does not work if beginDate equals endDate</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26811">NXP-26811</a></td><td colspan="1">Fix UserInvitationComponent erroneous request</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26797">NXP-26797</a></td><td colspan="1">Add icon for 'Collections' document type in Web UI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26866">NXP-26866</a></td><td colspan="1">Fix StackoverflowError on mimetype detection</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
