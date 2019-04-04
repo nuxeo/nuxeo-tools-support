@@ -2,9 +2,42 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-04">Hotfix 04</a></td><td colspan="1">2019-04-04</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2019-03-21</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
+</tbody></table></div>
+
+## [Hotfix 04](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19826)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-912">ELEMENTS-912</a></td><td colspan="1">Fix nuxeo-user-suggestion in selection display in edit modoe</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26838">NXP-26838</a></td><td colspan="1">Cannot import Nuxeo.ChartDataBehavior</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27020">NXP-27020</a></td><td colspan="1">Aggregates widgets Terms of type User Select should display firstName lastName instead of id</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27021">NXP-27021</a></td><td colspan="1">Exporting binary text doesn't work</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26745">NXP-26745</a></td><td colspan="1">Remove _original files when setting metadata on binaries</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27026">NXP-27026</a></td><td colspan="1">Canonicalize BlobProvider path property value</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27080">NXP-27080</a></td><td colspan="1">Templates shouldn't include the "default" template</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27141">NXP-27141</a></td><td colspan="1">Fix MongoDB GridFS blob serialization</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26816">NXP-26816</a></td><td colspan="1">Fetching current task should resolve fields</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24819">NXP-24819</a></td><td colspan="1">Don't do orphan versions cleanup by default</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27159">NXP-27159</a></td><td colspan="1">Fix audit query issue when using dates</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27051">NXP-27051</a></td><td colspan="1">Pull fix for ELEMENTS-890 in Web UI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26862">NXP-26862</a></td><td colspan="1">Drive: fix "Missing configuration for default transient store, using in-memory" in test logs</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27156">NXP-27156</a></td><td colspan="1">Fix S3 direct upload configuration</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-890">ELEMENTS-890</a></td><td colspan="1">WebUI charts are not configurable</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27057">NXP-27057</a></td><td colspan="1">Improve enrichment metadata handling</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27024">NXP-27024</a></td><td colspan="1">Add support for custom enrichment event names</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27109">NXP-27109</a></td><td colspan="1">Define nuxeo.binarystores.root for the root of all binaries store</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27103">NXP-27103</a></td><td colspan="1">Allow configuration of default blob provider for KeyValueBlobTransientStore</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 03](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19756)
@@ -15,10 +48,10 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26917">NXP-26917</a></td><td colspan="1">Missing translations in nuxeo-diff</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-14863">NXP-14863</a></td><td colspan="1">Batch initial statistics computation of quotas</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26798">NXP-26798</a></td><td colspan="1">Add i18n label for document type 'Collections' in Web UI</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27025">NXP-27025</a></td><td colspan="1">Audit search date filter does not work if beginDate equals endDate</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26811">NXP-26811</a></td><td colspan="1">Fix UserInvitationComponent erroneous request</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26797">NXP-26797</a></td><td colspan="1">Add icon for 'Collections' document type in Web UI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26866">NXP-26866</a></td><td colspan="1">Fix StackoverflowError on mimetype detection</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27025">NXP-27025</a></td><td colspan="1">Audit search date filter does not work if beginDate equals endDate</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -33,10 +66,10 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-835">ELEMENTS-835</a></td><td colspan="1">Missing translations in Notes</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-871">ELEMENTS-871</a></td><td colspan="1">nuxeo-textarea: placeholder attribute is not bound to internal paper-textarea element</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-870">ELEMENTS-870</a></td><td colspan="1">Fix spacing for users and groups on nuxeo-user-suggestion</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-869">ELEMENTS-869</a></td><td colspan="1">Fix nuxeo-user-suggestion with prefixed mode enabled</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-861">ELEMENTS-861</a></td><td colspan="1">Dropzone without a file extension</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-868">ELEMENTS-868</a></td><td colspan="1">Allow adding to clipboard after copying from new workspace</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-860">ELEMENTS-860</a></td><td colspan="1">Make nuxeo-document-suggestion handle non visible and deleted documents</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-869">ELEMENTS-869</a></td><td colspan="1">Fix nuxeo-user-suggestion with prefixed mode enabled</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26905">NXP-26905</a></td><td colspan="1">Favorites don't display thumbnails</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26882">NXP-26882</a></td><td colspan="1">Implement namespacing in GridFSBinaryManager</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24869">NXP-24869</a></td><td colspan="1">Main attachment preview does not work when document has the Folderish facet</td></tr>
@@ -47,15 +80,16 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26657">NXP-26657</a></td><td colspan="1">Remove notifications on tags and comments migrator </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26850">NXP-26850</a></td><td colspan="1">Fix i18n in element 'nuxeo-document-import'</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26825">NXP-26825</a></td><td colspan="1">Handle soft-delete enablement with child name unique constraint</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26816">NXP-26816</a></td><td colspan="1">Fetching current task should resolve fields</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26874">NXP-26874</a></td><td colspan="1">Fix MemKeyValueStore further concurrency issue</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26864">NXP-26864</a></td><td colspan="1">Fix nuxeo-duoweb-authentication package</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26854">NXP-26854</a></td><td colspan="1">Remove obsolete contribution from webui named collectionsPage</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26817">NXP-26817</a></td><td colspan="1">Make KeyValueBlobTransientStore robust when underlying blob is missing</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26809">NXP-26809</a></td><td colspan="1">Fix MultiDirectory with LDAP</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26875">NXP-26875</a></td><td colspan="1">Use a whole number of seconds for the OAuth 2 access token lifetime</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26747">NXP-26747</a></td><td colspan="1">Delete temporary files generated by converters</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26637">NXP-26637</a></td><td colspan="1">Fix user resolution in 'Terms' aggregates widget</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26681">NXP-26681</a></td><td colspan="1">Fix refresh in ARender annotation view after blob update</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26809">NXP-26809</a></td><td colspan="1">Fix MultiDirectory with LDAP</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26518">NXP-26518</a></td><td colspan="1">Change used token from JWT to OAuth2 in ARender</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -90,7 +124,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26604">NXP-26604</a></td><td colspan="1">Fix page provider with unrestricted session property when overriden to use elasticsearch</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26540">NXP-26540</a></td><td colspan="1">Do not compute child sync roots when the target document is a version</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26525">NXP-26525</a></td><td colspan="1">Fix storage of default values in the database</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26405">NXP-26405</a></td><td colspan="1">Elasticsearch error after copying a document from a Proxy document</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26711">NXP-26711</a></td><td colspan="1">text/partial used in importer is not processed and rendered</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26684">NXP-26684</a></td><td colspan="1">Fix "Component class should be serializable: nuxeoDriveActions"</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26737">NXP-26737</a></td><td colspan="1">DocumentModelResolver must consider the validation flag</td></tr>
@@ -103,6 +136,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25812">NXP-25812</a></td><td colspan="1">Republishing a document removes its alerts subscriptions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26763">NXP-26763</a></td><td colspan="1">Office documents PDF preview broken on Windows</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26709">NXP-26709</a></td><td colspan="1">Fix LibreOffice user profile deletion</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26405">NXP-26405</a></td><td colspan="1">Elasticsearch error after copying a document from a Proxy document</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
