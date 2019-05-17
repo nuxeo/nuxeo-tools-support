@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-45">Hotfix 45</a></td><td colspan="1">2019-05-17</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-44">Hotfix 44</a></td><td colspan="1">2019-04-17</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-43">Hotfix 43</a></td><td colspan="1">2019-03-12</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-42">Hotfix 42</a></td><td colspan="1">2019-02-19</td><td colspan="1">No</td></tr>
@@ -48,6 +49,7 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2017-02-15</td><td colspan="1"><a href="https://doc.nuxeo.com/810/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2016/#hotfix-01">Yes</a></td></tr>
 </tbody></table></div>
 
+## [Hotfix 45](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19871)
 ## [Hotfix 44](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19813)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
