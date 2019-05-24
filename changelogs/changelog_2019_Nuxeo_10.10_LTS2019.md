@@ -2,12 +2,39 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-07">Hotfix 07</a></td><td colspan="1">2019-05-23</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-06">Hotfix 06</a></td><td colspan="1">2019-05-09</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-06">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-05">Hotfix 05</a></td><td colspan="1">2019-04-25</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-05">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-04">Hotfix 04</a></td><td colspan="1">2019-04-04</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-04">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2019-03-21</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
+</tbody></table></div>
+
+## [Hotfix 07](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19891)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-942">ELEMENTS-942</a></td><td colspan="1">Fix unnecessary dom flush in page provider display behavior</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27263">NXP-27263</a></td><td colspan="1">Unable to use AWS ai services because of PG deadlock</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27327">NXP-27327</a></td><td colspan="1">In JSF, searching by tags is not possible even with relations implementation of tags</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27186">NXP-27186</a></td><td colspan="1">Fix editing dates in webui-ftests framework</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27304">NXP-27304</a></td><td colspan="1">Document tree not refreshed when documents are created</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27077">NXP-27077</a></td><td colspan="1">Add mixins to configure the background color of suggestion elements</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27319">NXP-27319</a></td><td colspan="1">Fix potential NPE with the "favorites" enricher</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27259">NXP-27259</a></td><td colspan="1">Fix Worklist export as Zip to handle filename without extension</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27386">NXP-27386</a></td><td colspan="1">WOPI pub/sub crashes in cluster with Redis</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27292">NXP-27292</a></td><td colspan="1">Improve KVBlobTransientStore putBlobs concurrency</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27338">NXP-27338</a></td><td colspan="1">Fix sorting options on nuxeo-data-table</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27063">NXP-27063</a></td><td colspan="1">Shared asset searches should display results</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-913">ELEMENTS-913</a></td><td colspan="1">Allow to extend nuxeo-data-table</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27342">NXP-27342</a></td><td colspan="1">Add a Path filter to AI pipeline event listener</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27343">NXP-27343</a></td><td colspan="1">Add firstDayOfWeek global configuration for WebUI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27352">NXP-27352</a></td><td colspan="1">Refactor AI suggestions metadata</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27245">NXP-27245</a></td><td colspan="1">Make save button selector more specific</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 06](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19880)
@@ -21,10 +48,10 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27305">NXP-27305</a></td><td colspan="1">Support post commit events in AI pipeline</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27323">NXP-27323</a></td><td colspan="1">Fix TypeError: Cannot read property 'browserName' of undefined on Web UI FT for 10.10</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27275">NXP-27275</a></td><td colspan="1">Fix ARender component start with VCS</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27334">NXP-27334</a></td><td colspan="1">Observer fires when it should not</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27140">NXP-27140</a></td><td colspan="1">SVG icon color is not correctly rendered</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27299">NXP-27299</a></td><td colspan="1">Increase elasticsearch connection timeout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27322">NXP-27322</a></td><td colspan="1">Disable Web UI metrics for Safari</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27334">NXP-27334</a></td><td colspan="1">Observer fires when it should not</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
