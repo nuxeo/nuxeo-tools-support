@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-33">Hotfix 33</a></td><td colspan="1">2019-06-25</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-32">Hotfix 32</a></td><td colspan="1">2019-05-29</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-31">Hotfix 31</a></td><td colspan="1">2019-05-06</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-31">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-30">Hotfix 30</a></td><td colspan="1">2019-04-12</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-30">Yes</a></td></tr>
@@ -36,11 +37,51 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2018-02-08</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-01">Yes</a></td></tr>
 </tbody></table></div>
 
+## [Hotfix 33](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19976)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-965">ELEMENTS-965</a></td><td colspan="1">Fix SendMail button for external permission</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-934">ELEMENTS-934</a></td><td colspan="1">Ensure nuxeo-selectivity callbacks are correctly called</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-976">ELEMENTS-976</a></td><td colspan="1">Add return statement in groupname/username result formatter</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-843">ELEMENTS-843</a></td><td colspan="1">Improve rendering of long document's title by element 'nuxeo-document-grid-thumbnail'</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27278">NXP-27278</a></td><td colspan="1">Fix assignment/removal of access rights in workflow</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27316">NXP-27316</a></td><td colspan="1">Deliver Latest Available Lazy Stored Rendition</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-23670">NXP-23670</a></td><td colspan="1">Wrong locale after session timeout</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27158">NXP-27158</a></td><td colspan="1">Mail template workflowDocuments variable is not evaluated in task mail notification</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27445">NXP-27445</a></td><td colspan="1">Backport NXP-25234 to 9.10 fix es mapping for ecm:path</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27110">NXP-27110</a></td><td colspan="1">Fix use of NOT LIKE and NOT ILIKE in search widgets</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24764">NXP-24764</a></td><td colspan="1">Downloading file from Edit tab does not log an audit event</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27307">NXP-27307</a></td><td colspan="1">Fix adding to Collections</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27345">NXP-27345</a></td><td colspan="1">Fix adding to Groups</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26560">NXP-26560</a></td><td colspan="1">Fix error message when deleting an entry referenced in another vocabulary</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27486">NXP-27486</a></td><td colspan="1">Fix folderish document content view for non-Administrators</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27073">NXP-27073</a></td><td colspan="1">Fix call to fetch favorites on dashboard after database initialization</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27531">NXP-27531</a></td><td colspan="1">Allow non-Administrators to create documents</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27535">NXP-27535</a></td><td colspan="1">Allow non-Administrators to save searches</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27533">NXP-27533</a></td><td colspan="1">Fix possible NPE in AbstractRenditionBuilderWork cleanup</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27534">NXP-27534</a></td><td colspan="1">StreamWorkManager should not terminate worker thread in case of failure</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27568">NXP-27568</a></td><td colspan="1">Skip repository initialization if MongoDB database is already set up</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26485">NXP-26485</a></td><td colspan="1">Fix invalidation of root document</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-970">ELEMENTS-970</a></td><td colspan="1">Remove nuxeo-elements from npm dependencies</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26856">NXP-26856</a></td><td colspan="1">Remove web ui mp version from nuxeo-distribution</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27330">NXP-27330</a></td><td colspan="1">update the adobe connector plugin marketplace package.</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-937">ELEMENTS-937</a></td><td colspan="1">Add sync-indexing options on nuxeo-operation-button</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 32](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19887)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-959">ELEMENTS-959</a></td><td colspan="1">Fix selection in the Analytics dropdown menu</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-846">ELEMENTS-846</a></td><td colspan="1">nuxeo-document-suggestion does not keep focus after click</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-948">ELEMENTS-948</a></td><td colspan="1">Add css variables to selectivity</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27414">NXP-27414</a></td><td colspan="1">nuxeo-document-attachments incorrect preview links</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26874">NXP-26874</a></td><td colspan="1">Fix MemKeyValueStore further concurrency issue</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27077">NXP-27077</a></td><td colspan="1">Add mixins to configure the background color of suggestion elements</td></tr>
@@ -48,9 +89,9 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27327">NXP-27327</a></td><td colspan="1">In JSF, searching by tags is not possible even with relations implementation of tags</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27292">NXP-27292</a></td><td colspan="1">Improve KVBlobTransientStore putBlobs concurrency</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27319">NXP-27319</a></td><td colspan="1">Fix potential NPE with the "favorites" enricher</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27386">NXP-27386</a></td><td colspan="1">WOPI pub/sub crashes in cluster with Redis</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26294">NXP-26294</a></td><td colspan="1">Fix random test failure on StreamWorkManagerTest#testCoalescingWorks</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26357">NXP-26357</a></td><td colspan="1">Fix MemKeyValueStore concurrency issue</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27386">NXP-27386</a></td><td colspan="1">WOPI pub/sub crashes in cluster with Redis</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 31](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19863)
