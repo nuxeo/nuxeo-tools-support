@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-17">Hotfix 17</a></td><td colspan="1">2019-10-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-16">Hotfix 16</a></td><td colspan="1">2019-10-14</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-15">Hotfix 15</a></td><td colspan="1">2019-10-09</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-15">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-14">Hotfix 14</a></td><td colspan="1">2019-09-24</td><td colspan="1">No</td></tr>
@@ -18,6 +19,38 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2019-03-21</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
+</tbody></table></div>
+
+## [Hotfix 17](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20201)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28077">NXP-28077</a></td><td colspan="1">CQ Ease processor recovery after stream retention period is exhausted</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28147">NXP-28147</a></td><td colspan="1">Publication message not updated when switching favorites</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27958">NXP-27958</a></td><td colspan="1">Reduce excessive response size of Spreadsheet editor's search request </td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28078">NXP-28078</a></td><td colspan="1">Working worflow in 8.10 chokes in 10.10</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27876">NXP-27876</a></td><td colspan="1">Fix MongoDB connection to Atlas</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28160">NXP-28160</a></td><td colspan="1">Fix suggestions selection when editing file</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28161">NXP-28161</a></td><td colspan="1">Wrong agreggation filter counts when unclicked</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28231">NXP-28231</a></td><td colspan="1">Allow concurrent startup of SQL Directory</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28240">NXP-28240</a></td><td colspan="1">Parent directories listing limited to 50 entries</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28259">NXP-28259</a></td><td colspan="1">Fix NoClassDefFoundError in 'nuxeo-diff' addon</td></tr>
+</tbody></table></div>
+
+#### New Feature(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25489">NXP-25489</a></td><td colspan="1">Add support for Elasticsearch "nested" operator</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28225">NXP-28225</a></td><td colspan="1">Revert commit so Render With Template shows all template versions</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-975">ELEMENTS-975</a></td><td colspan="1">Selectivity embedded strings should be translatable</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27953">NXP-27953</a></td><td colspan="1">Review and update deprecated usage of MongoCollection#count API</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27884">NXP-27884</a></td><td colspan="1">Backport NXP-21874 - Make Elasticsearch hints an extension point</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 16](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20195)
@@ -38,13 +71,14 @@
 #### Improvement(s)
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27922">NXP-27922</a></td><td colspan="1">Enable to run multiple Nuxeo with embedded elasticsearch</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27935">NXP-27935</a></td><td colspan="1">Add a LogEntry csv writer</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 15](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20172)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1061">ELEMENTS-1061</a></td><td colspan="1">Choice of Columns display should have a scrollbar</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1063">ELEMENTS-1063</a></td><td colspan="1">Fix hasSchema method of FiltersBehavior</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1061">ELEMENTS-1061</a></td><td colspan="1">Choice of Columns display should have a scrollbar</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27648">NXP-27648</a></td><td colspan="1">Provide generic preview for File documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26749">NXP-26749</a></td><td colspan="1">Fix duplicated entry in navigation tree</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28064">NXP-28064</a></td><td colspan="1">Wrong breadcrumb display with special characters</td></tr>
@@ -265,7 +299,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27568">NXP-27568</a></td><td colspan="1">Skip repository initialization if MongoDB database is already set up</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27566">NXP-27566</a></td><td colspan="1">BulkStatus should correctly report the error count</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27544">NXP-27544</a></td><td colspan="1">Fix ComputationRunner processLoop timeout ERRORs in logs</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27615">NXP-27615</a></td><td colspan="1">Fix nuxeo-diff content comparison broken since 10.10</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27550">NXP-27550</a></td><td colspan="1">Fix AI Suggestions for now</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27535">NXP-27535</a></td><td colspan="1">Allow non-Administrators to save searches</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27317">NXP-27317</a></td><td colspan="1">Fix Internal Publication and Selectivity Web UI ftests</td></tr>
@@ -275,6 +308,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27629">NXP-27629</a></td><td colspan="1">Fix editGroupDialogButton selector in webUI ftest framework</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27451">NXP-27451</a></td><td colspan="1">Clipboard should respect Accepted Children Types</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27530">NXP-27530</a></td><td colspan="1">Long breadcrumb hides the document action buttons</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27615">NXP-27615</a></td><td colspan="1">Fix nuxeo-diff content comparison broken since 10.10</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -427,7 +461,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24865">NXP-24865</a></td><td colspan="1">Fix 'single directory radio' widget with 'onchange' custom property when used in list or complex field</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-23670">NXP-23670</a></td><td colspan="1">Wrong locale after session timeout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-22752">NXP-22752</a></td><td colspan="1">Fix Spreadsheet: multiple users/groups mapping works only for users and prefix them although it should not</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25058">NXP-25058</a></td><td colspan="1">Render With Template shows all template versions</td></tr>
 </tbody></table></div>
 
 #### Task(s)
