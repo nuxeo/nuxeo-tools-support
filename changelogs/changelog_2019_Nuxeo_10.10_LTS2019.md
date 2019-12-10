@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-11-25</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-18">Hotfix 18</a></td><td colspan="1">2019-11-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-17">Hotfix 17</a></td><td colspan="1">2019-10-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-16">Hotfix 16</a></td><td colspan="1">2019-10-14</td><td colspan="1">No</td></tr>
@@ -20,6 +21,61 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2019-03-21</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
+</tbody></table></div>
+
+## [Hotfix 19](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20310)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1093">ELEMENTS-1093</a></td><td colspan="1">Fix CI for maintenance branches.</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28305">NXP-28305</a></td><td colspan="1">Fix double "Greater than" typo in nuxeo-web-ui-bundle </td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28113">NXP-28113</a></td><td colspan="1">Inifinite loop when parent and child ids are identical</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27173">NXP-27173</a></td><td colspan="1">In StreamProcessor descriptor defaultPartitions is not taken in account</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28243">NXP-28243</a></td><td colspan="1">Child Vocabularies aggregates results not shown</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28013">NXP-28013</a></td><td colspan="1">Child path not updated when parent restored from trash</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28278">NXP-28278</a></td><td colspan="1">Fix sanitization of tag label when a tag is removed</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28298">NXP-28298</a></td><td colspan="1">Fix nullifying a multi-valued property</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28081">NXP-28081</a></td><td colspan="1">Test framework ignores the NUXEO_URL env variable after login</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28312">NXP-28312</a></td><td colspan="1">clipboard actions are hidden when screen height is too small</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28119">NXP-28119</a></td><td colspan="1">PDF.ExtractText fails when no search pattern is provided</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28349">NXP-28349</a></td><td colspan="1">Fix DocumentModelJsonReader failing to read unknown property</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27614">NXP-27614</a></td><td colspan="1">Model name containing comma leads to error</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28348">NXP-28348</a></td><td colspan="1">Null pointer in aspera Transfer class</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28366">NXP-28366</a></td><td colspan="1">Use nxrm3 1.0.3-NX1 when building</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24873">NXP-24873</a></td><td colspan="1">login box background color customization does not work</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28167">NXP-28167</a></td><td colspan="1">Enable 'nuxeo-drive-sync-toggle-button' element for collections</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28392">NXP-28392</a></td><td colspan="1">Handle SimpleDocumentModel in SuggestionOp</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28270">NXP-28270</a></td><td colspan="1">Problem with subtype in nuxeo-document-creation-behavior</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27946">NXP-27946</a></td><td colspan="1">Fix video preview overflow in task view</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28303">NXP-28303</a></td><td colspan="1">Find a mechanism to avoid the transaction timeout while running the binary GC</td></tr>
+</tbody></table></div>
+
+#### New Feature(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28051">NXP-28051</a></td><td colspan="1">Update Nuxeo Drive link for GNU/Linux binary</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28321">NXP-28321</a></td><td colspan="1">Update pom.xml to enable Nexus staging plugin</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28156">NXP-28156</a></td><td colspan="1">Remove WorkManager#listWorkIds usage from PictureViewsGenerationWork</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28158">NXP-28158</a></td><td colspan="1">Remove WorkManager#listWorkIds usage from ThreeDBatchUpdateWork</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28159">NXP-28159</a></td><td colspan="1">Remove WorkManager#listWorkIds usage from TestRenditionService</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28300">NXP-28300</a></td><td colspan="1">Add nxql search functional test</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28374">NXP-28374</a></td><td colspan="1">Use nxrm3 1.0.3-NX2 when building</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1059">ELEMENTS-1059</a></td><td colspan="1">Keep the raw response in nuxeo-aggregate-data-behavior</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28169">NXP-28169</a></td><td colspan="1">Update labels in nuxeoctl to mention tokens instead of password</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28354">NXP-28354</a></td><td colspan="1">Update ant-maven-assembly-plugin</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28329">NXP-28329</a></td><td colspan="1">Add Nuxeo Stream probe to health check by default for 10.10</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28114">NXP-28114</a></td><td colspan="1">S3 Direct Upload keep-alive</td></tr>
+</tbody></table></div>
+
+#### Epic(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28155">NXP-28155</a></td><td colspan="1">Replace remaining uses of WorkManager#listWorkIds</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 18](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20221)
