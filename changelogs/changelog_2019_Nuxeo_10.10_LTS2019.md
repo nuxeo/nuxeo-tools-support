@@ -2,7 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
-<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-11-25</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-18">Hotfix 18</a></td><td colspan="1">2019-11-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-17">Hotfix 17</a></td><td colspan="1">2019-10-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-16">Hotfix 16</a></td><td colspan="1">2019-10-14</td><td colspan="1">No</td></tr>
@@ -46,6 +46,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28392">NXP-28392</a></td><td colspan="1">Handle SimpleDocumentModel in SuggestionOp</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28270">NXP-28270</a></td><td colspan="1">Problem with subtype in nuxeo-document-creation-behavior</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27946">NXP-27946</a></td><td colspan="1">Fix video preview overflow in task view</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27168">NXP-27168</a></td><td colspan="1">Fix NXQL operator ILIKE when querying elasticsearch</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28303">NXP-28303</a></td><td colspan="1">Find a mechanism to avoid the transaction timeout while running the binary GC</td></tr>
 </tbody></table></div>
 
