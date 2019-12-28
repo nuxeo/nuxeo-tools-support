@@ -2,7 +2,8 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
-<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-20">Hotfix 20</a></td><td colspan="1">2019-12-24</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-19">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-18">Hotfix 18</a></td><td colspan="1">2019-11-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-17">Hotfix 17</a></td><td colspan="1">2019-10-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-16">Hotfix 16</a></td><td colspan="1">2019-10-14</td><td colspan="1">No</td></tr>
@@ -21,6 +22,29 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2019-03-21</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
+</tbody></table></div>
+
+## [Hotfix 20](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20350)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1090">ELEMENTS-1090</a></td><td colspan="1">Fix selectivity widget inside a dialog placed in the nuxeo-actions-menu dropdown</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1096">ELEMENTS-1096</a></td><td colspan="1">Fix inconsistent rendering of override of a slot content in Chrome</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28260">NXP-28260</a></td><td colspan="1">nuxeo-platform-3d - jsf plugins must be in bundles-jsf-ui</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27994">NXP-27994</a></td><td colspan="1">Fix navigation to user or group containing a question mark</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28437">NXP-28437</a></td><td colspan="1">S3 probe should not report failure when there are not S3 blob providers</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28430">NXP-28430</a></td><td colspan="1">CMIS downloads must use Content-Disposition inline by default</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28421">NXP-28421</a></td><td colspan="1">Avoid Content-Disposition RFC 2231 encoding when it's not needed</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28172">NXP-28172</a></td><td colspan="1">Use picture info in nuxeo-picture-formats</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28344">NXP-28344</a></td><td colspan="1">Fix 10.10 Web UI Publication functional tests</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27635">NXP-27635</a></td><td colspan="1">Disconnecting/reconnecting from CAS should not display sw.js</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28431">NXP-28431</a></td><td colspan="1">Service Workers not listening to fetch requests on Firefox</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28275">NXP-28275</a></td><td colspan="1">Make it possible to redirect 'javax.mail' logs</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28404">NXP-28404</a></td><td colspan="1">Make Export Batch processing configurable</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28376">NXP-28376</a></td><td colspan="1">Create test annotation to control Framework properties</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 19](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20310)
@@ -115,13 +139,13 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28240">NXP-28240</a></td><td colspan="1">Parent directories listing limited to 50 entries</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28078">NXP-28078</a></td><td colspan="1">Working worflow in 8.10 chokes in 10.10</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28077">NXP-28077</a></td><td colspan="1">CQ Ease processor recovery after stream retention period is exhausted</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27958">NXP-27958</a></td><td colspan="1">Reduce excessive response size of Spreadsheet editor's search request </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27876">NXP-27876</a></td><td colspan="1">Fix MongoDB connection to Atlas</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28161">NXP-28161</a></td><td colspan="1">Wrong agreggation filter counts when unclicked</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28147">NXP-28147</a></td><td colspan="1">Publication message not updated when switching favorites</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27828">NXP-27828</a></td><td colspan="1">Restore absent result selection actions for collections</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28259">NXP-28259</a></td><td colspan="1">Fix NoClassDefFoundError in 'nuxeo-diff' addon</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28231">NXP-28231</a></td><td colspan="1">Allow concurrent startup of SQL Directory</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27958">NXP-27958</a></td><td colspan="1">Reduce excessive response size of Spreadsheet editor's search request </td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
