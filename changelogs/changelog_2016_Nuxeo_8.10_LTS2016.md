@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-47">Hotfix 47</a></td><td colspan="1">2020-02-04</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-46">Hotfix 46</a></td><td colspan="1">2019-06-20</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-45">Hotfix 45</a></td><td colspan="1">2019-05-17</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-44">Hotfix 44</a></td><td colspan="1">2019-04-17</td><td colspan="1">No</td></tr>
@@ -48,6 +49,40 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2017-03-23</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2017-03-01</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2017-02-15</td><td colspan="1"><a href="https://doc.nuxeo.com/810/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2016/#hotfix-01">Yes</a></td></tr>
+</tbody></table></div>
+
+## [Hotfix 47](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20016)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28467">NXP-28467</a></td><td colspan="1">Fix unit tests which will fail in 2020</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28462">NXP-28462</a></td><td colspan="1">Fix error after second HTML preview</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27813">NXP-27813</a></td><td colspan="1">Remove the FunkLoad tests in 8.10 & 9.10</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24873">NXP-24873</a></td><td colspan="1">login box background color customization does not work</td></tr>
+</tbody></table></div>
+
+#### New Feature(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28051">NXP-28051</a></td><td colspan="1">Update Nuxeo Drive link for GNU/Linux binary</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28352">NXP-28352</a></td><td colspan="1">Node.js dependency chalk >= 3 requires node >=8</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28169">NXP-28169</a></td><td colspan="1">Update labels in nuxeoctl to mention tokens instead of password</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28032">NXP-28032</a></td><td colspan="1">Upgrade commons-beanutils</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28030">NXP-28030</a></td><td colspan="1">Upgrade jackson-databind to 2.7.9.6 / 2.9.9.3</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28029">NXP-28029</a></td><td colspan="1">Upgrade commons-compress to 1.19</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28018">NXP-28018</a></td><td colspan="1">Upgrade Apache Santuario (xmlsec)</td></tr>
+</tbody></table></div>
+
+#### Clean up(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28398">NXP-28398</a></td><td colspan="1">Don't rely on custom-built Tomcat "light" artifact (backport)</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26623">NXP-26623</a></td><td colspan="1">Deactivate connection killer by default</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 46](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19961)
@@ -335,6 +370,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24381">NXP-24381</a></td><td colspan="1">REST API thread safety issue</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24375">NXP-24375</a></td><td colspan="1">Fix handling of limit/offset in a MutiDirectory query </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24338">NXP-24338</a></td><td colspan="1">Fix hasEntry method with MongoDB directories</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24331">NXP-24331</a></td><td colspan="1">CSRF Protection for Platform</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24312">NXP-24312</a></td><td colspan="1">PictureViewsGenerationWork generates recursive scheduling</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24288">NXP-24288</a></td><td colspan="1">regex password validation fails when invited</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24256">NXP-24256</a></td><td colspan="1">File named '.nxftl' in configuration template is not allowed</td></tr>
@@ -374,12 +410,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-21384">NXP-21384</a></td><td colspan="1">Release Nuxeo Groups and Rights Audit for 8.10 and 9.10</td></tr>
 </tbody></table></div>
 
-#### Improvement(s)
-<div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24232">NXP-24232</a></td><td colspan="1">Improve getUpperBound query when storing audit in Elasticsearch</td></tr>
-</tbody></table></div>
-
-## [Hotfix 23](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=18810)
+## [Hotfix 23]()
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24088">NXP-24088</a></td><td colspan="1">JSON serialization fails on DeltaLong values</td></tr>
