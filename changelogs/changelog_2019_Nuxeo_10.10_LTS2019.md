@@ -2,7 +2,8 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
-<tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2020-01-13</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-22">Hotfix 22</a></td><td colspan="1">2020-02-07</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2020-01-24</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-21">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-20">Hotfix 20</a></td><td colspan="1">2019-12-28</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-19">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-18">Hotfix 18</a></td><td colspan="1">2019-11-08</td><td colspan="1">No</td></tr>
@@ -25,14 +26,44 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 22](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20406)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28350">NXP-28350</a></td><td colspan="1">Fix the drag-down autofill for 'vocabulary' cells in the Spreadsheet Editor</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28462">NXP-28462</a></td><td colspan="1">Fix error after second HTML preview</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28481">NXP-28481</a></td><td colspan="1">streamStatus probe should detect all abnormal computation termination</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28564">NXP-28564</a></td><td colspan="1">Fix retention rule validation in create/edit layout</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28497">NXP-28497</a></td><td colspan="1">WebUI interface should not allow DirectEdit button on proxies</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28252">NXP-28252</a></td><td colspan="1">Fix wrong target document link on first level comment notification</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28478">NXP-28478</a></td><td colspan="1">Bulk download doesn't show progress</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28560">NXP-28560</a></td><td colspan="1">Failed enrichers cause exception to be thrown as response</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28592">NXP-28592</a></td><td colspan="1">Prevent possible failure of Kafka topic creation on concurrency</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28553">NXP-28553</a></td><td colspan="1">Fix BAF action's query in charge of retrieving expired documents</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28495">NXP-28495</a></td><td colspan="1">Fix possible bug in Document Import with slow server responses</td></tr>
+</tbody></table></div>
+
+#### New Feature(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1126">ELEMENTS-1126</a></td><td colspan="1">Create a page provider for tasks pagination</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28552">NXP-28552</a></td><td colspan="1">Record management - Add events in the audit trail</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28586">NXP-28586</a></td><td colspan="1">Create a Done computation to collects statistics on Export</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28569">NXP-28569</a></td><td colspan="1">AI Corpus Export additional fields</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28008">NXP-28008</a></td><td colspan="1">Make Task endpoint paginable</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 21](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20359)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1068">ELEMENTS-1068</a></td><td colspan="1">Group name containing quote is not displayed when searched</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1115">ELEMENTS-1115</a></td><td colspan="1">"Add to Collection" Button not sending relevant information</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27918">NXP-27918</a></td><td colspan="1">Fix 'Spreadsheet editor' when displaying column for a multi-valued string field</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26783">NXP-26783</a></td><td colspan="1">OneDrive LiveConnect icon not visible in blob actions list</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28117">NXP-28117</a></td><td colspan="1">Trigger content view reload after closing Spreadsheet editor</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28433">NXP-28433</a></td><td colspan="1">Fix nullifying a multi-valued complex property</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28274">NXP-28274</a></td><td colspan="1">Don't assume picture dimensions prior to conversion</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28403">NXP-28403</a></td><td colspan="1">Fix Elasticsearch query for history with multi-tenant isolation</td></tr>
@@ -42,14 +73,17 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28406">NXP-28406</a></td><td colspan="1">Handle duplicates with MongoDB</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28436">NXP-28436</a></td><td colspan="1">Task Refresh button does nothing</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28522">NXP-28522</a></td><td colspan="1">Do not set Last-Modified header in initial stored, lazy rendition "empty" response</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28253">NXP-28253</a></td><td colspan="1">Fix wrong notification sent on comment edit</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28521">NXP-28521</a></td><td colspan="1">Fix MongoDB upsert retry to avoid duplicate key error</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26783">NXP-26783</a></td><td colspan="1">OneDrive LiveConnect icon not visible in blob actions list</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28443">NXP-28443</a></td><td colspan="1">Do not remove tags when a document is trashed</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28527">NXP-28527</a></td><td colspan="1">Fix TestMongoDBIndices.shouldFailWhenCreatingExistingChildNameDocument on mongodb4</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28050">NXP-28050</a></td><td colspan="1">Add Set Legal Hold Bulk Action</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28011">NXP-28011</a></td><td colspan="1">Add support for l10nvocabulary vocabulary layout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28373">NXP-28373</a></td><td colspan="1">nuxeoctl hangs on failure with strict mode</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28550">NXP-28550</a></td><td colspan="1">Fix test testProxyOnNullTarget on DBS</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28253">NXP-28253</a></td><td colspan="1">Fix wrong notification sent on comment edit</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28117">NXP-28117</a></td><td colspan="1">Trigger content view reload after closing Spreadsheet editor</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27918">NXP-27918</a></td><td colspan="1">Fix 'Spreadsheet editor' when displaying column for a multi-valued string field</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -57,19 +91,19 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1004">ELEMENTS-1004</a></td><td colspan="1">Review Elements permissions for Retention</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28456">NXP-28456</a></td><td colspan="1">New implementation for the encrypted (AES) blob provider</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28460">NXP-28460</a></td><td colspan="1">New implementation S3BlobProvider</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27435">NXP-27435</a></td><td colspan="1">Record, Retention and Hold low-level implementation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25712">NXP-25712</a></td><td colspan="1">Add some metadata  on objects stored in S3</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28276">NXP-28276</a></td><td colspan="1">Refactor blob providers infrastructure for more flexibility</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28007">NXP-28007</a></td><td colspan="1">Add description when setting legal hold</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27435">NXP-27435</a></td><td colspan="1">Record, Retention and Hold low-level implementation</td></tr>
 </tbody></table></div>
 
 #### Task(s)
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28135">NXP-28135</a></td><td colspan="1">Record management - Empty or past date value for metadata based retention</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27692">NXP-27692</a></td><td colspan="1">Integrate Retention addon</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28367">NXP-28367</a></td><td colspan="1">Merge Retention module V1</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27831">NXP-27831</a></td><td colspan="1">Write Retention Functional tests</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28300">NXP-28300</a></td><td colspan="1">Add nxql search functional test</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28367">NXP-28367</a></td><td colspan="1">Merge Retention module V1</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -78,9 +112,9 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26890">NXP-26890</a></td><td colspan="1">Make the selectivity setter helper to clear value before setting a new one on single value mode on ftest framework</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28485">NXP-28485</a></td><td colspan="1">Align nuxeo-management-rest-api addon with HF builds</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28488">NXP-28488</a></td><td colspan="1">Add BlobProvider.supportsSync to avoid relying on BinaryManager for sync tests</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28334">NXP-28334</a></td><td colspan="1">Create a scroll service</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28086">NXP-28086</a></td><td colspan="1">Bulk Service should have an option to use an Elasticsearch scroller</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28499">NXP-28499</a></td><td colspan="1">Upgrade Tomcat to 9.0.30</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28334">NXP-28334</a></td><td colspan="1">Create a scroll service</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 20](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20350)
@@ -204,7 +238,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27958">NXP-27958</a></td><td colspan="1">Reduce excessive response size of Spreadsheet editor's search request </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27828">NXP-27828</a></td><td colspan="1">Restore absent result selection actions for collections</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28259">NXP-28259</a></td><td colspan="1">Fix NoClassDefFoundError in 'nuxeo-diff' addon</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28231">NXP-28231</a></td><td colspan="1">Allow concurrent startup of SQL Directory</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -277,8 +310,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28074">NXP-28074</a></td><td colspan="1">Upgrade Jackson to 2.10.0</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28005">NXP-28005</a></td><td colspan="1">Refactor DownloadService.downloadBlob to use builder pattern</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27805">NXP-27805</a></td><td colspan="1">S3BinaryManager: allow configurable digest </td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27346">NXP-27346</a></td><td colspan="1">Don't timeout during long imports</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27337">NXP-27337</a></td><td colspan="1">Use the Nuxeo DownloadService framework for CMIS downloads</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27346">NXP-27346</a></td><td colspan="1">Don't timeout during long imports</td></tr>
 </tbody></table></div>
 
 #### Clean up(s)
