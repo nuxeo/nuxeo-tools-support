@@ -2,7 +2,8 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
-<tr><td colspan="1"><a href="#hotfix-44">Hotfix 44</a></td><td colspan="1">2020-05-18</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-45">Hotfix 45</a></td><td colspan="1">2020-06-19</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-44">Hotfix 44</a></td><td colspan="1">2020-05-20</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-43">Hotfix 43</a></td><td colspan="1">2020-04-17</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-42">Hotfix 42</a></td><td colspan="1">2020-03-19</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-41">Hotfix 41</a></td><td colspan="1">2020-02-25</td><td colspan="1">No</td></tr>
@@ -48,11 +49,35 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2018-02-08</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-01">Yes</a></td></tr>
 </tbody></table></div>
 
+## [Hotfix 45](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20598)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28338">NXP-28338</a></td><td colspan="1">Translate action keys in Workflow analytics</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29099">NXP-29099</a></td><td colspan="1">Delete the related tasks when a Workflow instance is deleted</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29227">NXP-29227</a></td><td colspan="1">Upgrade Tomcat to 8.5.56</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29204">NXP-29204</a></td><td colspan="1">Fix AJP connector when secret is not required</td></tr>
+</tbody></table></div>
+
+#### Clean up(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26495">NXP-26495</a></td><td colspan="1">Upgrade dom4j to 2.1.1</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29222">NXP-29222</a></td><td colspan="1">Upgrade dom4j to 2.1.3</td></tr>
+</tbody></table></div>
+
+#### Question(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28775">NXP-28775</a></td><td colspan="1">Fix cannot remove twice from collection</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 44](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20575)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27157">NXP-27157</a></td><td colspan="1">Fix query to get Template documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28935">NXP-28935</a></td><td colspan="1">Fix restoration of sub-sub children</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27157">NXP-27157</a></td><td colspan="1">Fix query to get Template documents</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -74,9 +99,9 @@
 ## [Hotfix 43](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20531)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26190">NXP-26190</a></td><td colspan="1">Fix Easyshare not to display versions among suggestions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28557">NXP-28557</a></td><td colspan="1">Since NXS-5424, previously saved searches with columns with complex data -> choice of columns not respected</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28841">NXP-28841</a></td><td colspan="1">Fix regression caused by NXP-26003</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26190">NXP-26190</a></td><td colspan="1">Fix Easyshare not to display versions among suggestions</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -87,11 +112,11 @@
 ## [Hotfix 42](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20454)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27429">NXP-27429</a></td><td colspan="1">Using the search tool on iOS and Android in "vertical mode", buttons "Reinit" and "Search" are not reachable</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28638">NXP-28638</a></td><td colspan="1">Running workflows not displayed for user not involved but with permissions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28770">NXP-28770</a></td><td colspan="1">Fix merge of MongoDB repository configuration descriptors</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27429">NXP-27429</a></td><td colspan="1">Using the search tool on iOS and Android in "vertical mode", buttons "Reinit" and "Search" are not reachable</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28703">NXP-28703</a></td><td colspan="1">Fix Tomcat AJP</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24967">NXP-24967</a></td><td colspan="1">Make saved search emails work</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28703">NXP-28703</a></td><td colspan="1">Fix Tomcat AJP</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -112,10 +137,10 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28674">NXP-28674</a></td><td colspan="1">Fix regression in page provider 'default_collection_candidate'</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28406">NXP-28406</a></td><td colspan="1">Handle duplicates with MongoDB</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28526">NXP-28526</a></td><td colspan="1">Make S3 Direct Upload compatible with S3-like storage</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27654">NXP-27654</a></td><td colspan="1">Add a unique index on ecm:id in MongoDB</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28661">NXP-28661</a></td><td colspan="1">Allow concurrent startup of Nuxeo instances</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26003">NXP-26003</a></td><td colspan="1">Fix retrieval of personal workspace for user with special characters</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28497">NXP-28497</a></td><td colspan="1">WebUI interface should not allow DirectEdit button on proxies</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27654">NXP-27654</a></td><td colspan="1">Add a unique index on ecm:id in MongoDB</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -146,10 +171,10 @@
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1086">ELEMENTS-1086</a></td><td colspan="1">Backport lazy loading of PDF conversion for attachments preview on 9.10</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24873">NXP-24873</a></td><td colspan="1">login box background color customization does not work</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28301">NXP-28301</a></td><td colspan="1">Fix 9.10 Web UI functional tests </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28467">NXP-28467</a></td><td colspan="1">Fix unit tests which will fail in 2020</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27168">NXP-27168</a></td><td colspan="1">Fix NXQL operator ILIKE when querying elasticsearch</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24873">NXP-24873</a></td><td colspan="1">login box background color customization does not work</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -213,13 +238,13 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-22752">NXP-22752</a></td><td colspan="1">Fix Spreadsheet: multiple users/groups mapping works only for users and prefix them although it should not</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28057">NXP-28057</a></td><td colspan="1">Fix regression when computing ACL enricher with system user</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28037">NXP-28037</a></td><td colspan="1">Fix ACLEnricher and UserManager tests on MongoDB</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27976">NXP-27976</a></td><td colspan="1">"[ChronicleRetentionListener] Unable to delete Chronicle file" on Windows</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27967">NXP-27967</a></td><td colspan="1">Possible contention on Kafka getAppender</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27896">NXP-27896</a></td><td colspan="1">Fix parse error with Elasticsearch Histogram</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27887">NXP-27887</a></td><td colspan="1">Add Kafka 2.2.x (or above) to CI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27938">NXP-27938</a></td><td colspan="1">nuxeo-directory-suggestion does not resolve value in a task screen</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25593">NXP-25593</a></td><td colspan="1">Align bottom of boxes displaying picture metadata in Web UI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-23786">NXP-23786</a></td><td colspan="1">Fix Login page language detection from Firefox settings</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27976">NXP-27976</a></td><td colspan="1">"[ChronicleRetentionListener] Unable to delete Chronicle file" on Windows</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -432,8 +457,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26798">NXP-26798</a></td><td colspan="1">Add i18n label for document type 'Collections' in Web UI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26781">NXP-26781</a></td><td colspan="1">Add a default ES mapping for ecm:title</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26832">NXP-26832</a></td><td colspan="1">DAM tests fail</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26081">NXP-26081</a></td><td colspan="1">Fix browsing to documents whose name ends with a space</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26747">NXP-26747</a></td><td colspan="1">Delete temporary files generated by converters</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26081">NXP-26081</a></td><td colspan="1">Fix browsing to documents whose name ends with a space</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -1076,10 +1101,10 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24681">NXP-24681</a></td><td colspan="1">Handle Directory field default value in creation form</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24677">NXP-24677</a></td><td colspan="1">Fix WebDAV exception on document move</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24673">NXP-24673</a></td><td colspan="1">Fix since TinyMCE upgrade, bulleted and numbered lists buttons disappeared</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24471">NXP-24471</a></td><td colspan="1">Directory entry is not formatted after adding to a data table</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24480">NXP-24480</a></td><td colspan="1">Cannot run automation subchain with parameters</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24322">NXP-24322</a></td><td colspan="1">Complex multi-value fields do not update properly when using MarkLogic</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24266">NXP-24266</a></td><td colspan="1">Fix loss of values in multi-valued fieds after restoring a draft</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24471">NXP-24471</a></td><td colspan="1">Directory entry is not formatted after adding to a data table</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -1145,11 +1170,11 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24407">NXP-24407</a></td><td colspan="1">Do not hard-code nuxeo-search-form in selector to display search result</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24403">NXP-24403</a></td><td colspan="1">Do not provide nuxeo-lock-toggle-button on Folderish through a nuxeo-filter</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24347">NXP-24347</a></td><td colspan="1">Fix remove from collection action not appearing in all collection types</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24331">NXP-24331</a></td><td colspan="1">CSRF Protection for Platform</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24312">NXP-24312</a></td><td colspan="1">PictureViewsGenerationWork generates recursive scheduling</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-21468">NXP-21468</a></td><td colspan="1">Fix File Upload widget on change when a new file is not chosen</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24594">NXP-24594</a></td><td colspan="1">Fix wizard test error linked to nuxeo.com iframe</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-20593">NXP-20593</a></td><td colspan="1">Fix proper handling of multiple containers inside a form layout</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24331">NXP-24331</a></td><td colspan="1">CSRF Protection for Platform</td></tr>
 </tbody></table></div>
 
 #### Task(s)
