@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-47">Hotfix 47</a></td><td colspan="1">2020-08-18</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-46">Hotfix 46</a></td><td colspan="1">2020-07-20</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-45">Hotfix 45</a></td><td colspan="1">2020-06-19</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-44">Hotfix 44</a></td><td colspan="1">2020-05-20</td><td colspan="1">No</td></tr>
@@ -11,43 +12,54 @@
 <tr><td colspan="1"><a href="#hotfix-40">Hotfix 40</a></td><td colspan="1">2020-01-27</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-39">Hotfix 39</a></td><td colspan="1">2019-12-31</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-38">Hotfix 38</a></td><td colspan="1">2019-12-03</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-37">Hotfix 37</a></td><td colspan="1">2019-10-18</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-37">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-36">Hotfix 36</a></td><td colspan="1">2019-09-27</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-36">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-35">Hotfix 35</a></td><td colspan="1">2019-08-26</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-35">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-34">Hotfix 34</a></td><td colspan="1">2019-08-02</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-34">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-33">Hotfix 33</a></td><td colspan="1">2019-06-25</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-33">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-37">Hotfix 37</a></td><td colspan="1">2019-10-18</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-37">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-36">Hotfix 36</a></td><td colspan="1">2019-09-27</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-36">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-35">Hotfix 35</a></td><td colspan="1">2019-08-26</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-35">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-34">Hotfix 34</a></td><td colspan="1">2019-08-02</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-34">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-33">Hotfix 33</a></td><td colspan="1">2019-06-25</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-33">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-32">Hotfix 32</a></td><td colspan="1">2019-05-29</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-31">Hotfix 31</a></td><td colspan="1">2019-05-06</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-31">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-30">Hotfix 30</a></td><td colspan="1">2019-04-12</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-30">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-31">Hotfix 31</a></td><td colspan="1">2019-05-06</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-31">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-30">Hotfix 30</a></td><td colspan="1">2019-04-12</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-30">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-29">Hotfix 29</a></td><td colspan="1">2019-03-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-28">Hotfix 28</a></td><td colspan="1">2019-02-28</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-27">Hotfix 27</a></td><td colspan="1">2019-02-12</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-26">Hotfix 26</a></td><td colspan="1">2019-01-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-25">Hotfix 25</a></td><td colspan="1">2019-01-01</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-24">Hotfix 24</a></td><td colspan="1">2018-12-18</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-24">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-24">Hotfix 24</a></td><td colspan="1">2018-12-18</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-24">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-23">Hotfix 23</a></td><td colspan="1">2018-12-04</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-22">Hotfix 22</a></td><td colspan="1">2018-11-20</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-22">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2018-11-05</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-21">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-20">Hotfix 20</a></td><td colspan="1">2018-10-22</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-20">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-22">Hotfix 22</a></td><td colspan="1">2018-11-20</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-22">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2018-11-05</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-21">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-20">Hotfix 20</a></td><td colspan="1">2018-10-22</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-20">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2018-10-04</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-18">Hotfix 18</a></td><td colspan="1">2018-09-20</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-17">Hotfix 17</a></td><td colspan="1">2018-09-06</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-16">Hotfix 16</a></td><td colspan="1">2018-09-04</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-16">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-15">Hotfix 15</a></td><td colspan="1">2018-08-22</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-15">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-16">Hotfix 16</a></td><td colspan="1">2018-09-04</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-16">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-15">Hotfix 15</a></td><td colspan="1">2018-08-22</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-15">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-14">Hotfix 14</a></td><td colspan="1">2018-08-07</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-13">Hotfix 13</a></td><td colspan="1">2018-07-24</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-13">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-12">Hotfix 12</a></td><td colspan="1">2018-07-09</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-12">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-13">Hotfix 13</a></td><td colspan="1">2018-07-24</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-13">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-12">Hotfix 12</a></td><td colspan="1">2018-07-09</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-12">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-11">Hotfix 11</a></td><td colspan="1">2018-06-25</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-10">Hotfix 10</a></td><td colspan="1">2018-06-14</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-09">Hotfix 09</a></td><td colspan="1">2018-05-31</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-09">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-09">Hotfix 09</a></td><td colspan="1">2018-05-31</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-09">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-08">Hotfix 08</a></td><td colspan="1">2018-05-17</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-07">Hotfix 07</a></td><td colspan="1">2018-05-03</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-06">Hotfix 06</a></td><td colspan="1">2018-04-19</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-05">Hotfix 05</a></td><td colspan="1">2018-04-05</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-05">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-04">Hotfix 04</a></td><td colspan="1">2018-03-22</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-04">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2018-03-12</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-03">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2018-02-22</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-02">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2018-02-08</td><td colspan="1"><a href="https://doc.nuxeo.com/910/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-01">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-05">Hotfix 05</a></td><td colspan="1">2018-04-05</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-05">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-04">Hotfix 04</a></td><td colspan="1">2018-03-22</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-04">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2018-03-12</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-03">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2018-02-22</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-02">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2018-02-08</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-01">Yes</a></td></tr>
+</tbody></table></div>
+
+## [Hotfix 47](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20696)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1213">ELEMENTS-1213</a></td><td colspan="1">Backport performance improvements for listings for 2.2.x</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29380">NXP-29380</a></td><td colspan="1">Cleanup Listener removeTasksForDeletedDocumentRoute does not scale </td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29100">NXP-29100</a></td><td colspan="1">Delete the related workflow instances when a document is deleted</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29270">NXP-29270</a></td><td colspan="1">Subfolders trashed/untrashed by user "system" instead of real user</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28791">NXP-28791</a></td><td colspan="1">Limit size of assets list in the Search view</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29246">NXP-29246</a></td><td colspan="1">Fix import of MHTML file using Chrome</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 46](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20639)
@@ -156,11 +168,11 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28231">NXP-28231</a></td><td colspan="1">Allow concurrent startup of SQL Directory</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28674">NXP-28674</a></td><td colspan="1">Fix regression in page provider 'default_collection_candidate'</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28406">NXP-28406</a></td><td colspan="1">Handle duplicates with MongoDB</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28526">NXP-28526</a></td><td colspan="1">Make S3 Direct Upload compatible with S3-like storage</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28661">NXP-28661</a></td><td colspan="1">Allow concurrent startup of Nuxeo instances</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26003">NXP-26003</a></td><td colspan="1">Fix retrieval of personal workspace for user with special characters</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28497">NXP-28497</a></td><td colspan="1">WebUI interface should not allow DirectEdit button on proxies</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27654">NXP-27654</a></td><td colspan="1">Add a unique index on ecm:id in MongoDB</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28526">NXP-28526</a></td><td colspan="1">Make S3 Direct Upload compatible with S3-like storage</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -868,7 +880,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-720">ELEMENTS-720</a></td><td colspan="1">Fix infinite scrolling on data table when used in search result layout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-708">ELEMENTS-708</a></td><td colspan="1">Fix cannot clear selectivity single widget when editing document</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-691">ELEMENTS-691</a></td><td colspan="1">Encapsulate default-styles.html into custom-style tag</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-23241">NXP-23241</a></td><td colspan="1">Make Easyshare folder icon visible on Web UI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25284">NXP-25284</a></td><td colspan="1">Make clipboard action availability overridable</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25103">NXP-25103</a></td><td colspan="1">Renaming title does not show in clipboard</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25203">NXP-25203</a></td><td colspan="1">Do not create ecm:fulltextJobId_1 index in MongoDB when fulltext is disabled</td></tr>
@@ -878,6 +889,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24559">NXP-24559</a></td><td colspan="1">Fix elasticsearch audit finder in drive for hot reload</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25276">NXP-25276</a></td><td colspan="1">OOTB dark theme renders "new" user/group menu option invisible until hovering over them</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-16398">NXP-16398</a></td><td colspan="1">Review jsessionid management in URL system</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-23241">NXP-23241</a></td><td colspan="1">Make Easyshare folder icon visible on Web UI</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -927,10 +939,10 @@
 ## [Hotfix 10](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19149)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-675">ELEMENTS-675</a></td><td colspan="1">Make sure selectivity widget does not change value uselessly</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-679">ELEMENTS-679</a></td><td colspan="1">Fix users being able to delete their own profile</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-676">ELEMENTS-676</a></td><td colspan="1">Fix selectivity clear action on single value</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-674">ELEMENTS-674</a></td><td colspan="1">Investigate on a possible memory leak with WebUI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-675">ELEMENTS-675</a></td><td colspan="1">Make sure selectivity widget does not change value uselessly</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24185">NXP-24185</a></td><td colspan="1">Adding an alert on a proxy generates an error</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25116">NXP-25116</a></td><td colspan="1">Concurrent update exception should never be swallowed</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25160">NXP-25160</a></td><td colspan="1">Fix bulk nuxeo-delete-documents-action availability</td></tr>
