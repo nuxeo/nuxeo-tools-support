@@ -2,36 +2,68 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-31">Hotfix 31</a></td><td colspan="1">2020-09-02</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-30">Hotfix 30</a></td><td colspan="1">2020-07-29</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-29">Hotfix 29</a></td><td colspan="1">2020-07-01</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-28">Hotfix 28</a></td><td colspan="1">2020-06-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-27">Hotfix 27</a></td><td colspan="1">2020-05-27</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-26">Hotfix 26</a></td><td colspan="1">2020-05-07</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-25">Hotfix 25</a></td><td colspan="1">2020-04-17</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-25">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-25">Hotfix 25</a></td><td colspan="1">2020-04-17</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-25">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-24">Hotfix 24</a></td><td colspan="1">2020-03-26</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-23">Hotfix 23</a></td><td colspan="1">2020-03-11</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-23">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-23">Hotfix 23</a></td><td colspan="1">2020-03-11</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-23">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-22">Hotfix 22</a></td><td colspan="1">2020-02-10</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2020-01-24</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-21">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2020-01-24</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-21">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-20">Hotfix 20</a></td><td colspan="1">2019-12-28</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-19">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-19">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-18">Hotfix 18</a></td><td colspan="1">2019-11-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-17">Hotfix 17</a></td><td colspan="1">2019-10-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-16">Hotfix 16</a></td><td colspan="1">2019-10-14</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-15">Hotfix 15</a></td><td colspan="1">2019-10-09</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-15">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-15">Hotfix 15</a></td><td colspan="1">2019-10-09</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-15">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-14">Hotfix 14</a></td><td colspan="1">2019-09-24</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-13">Hotfix 13</a></td><td colspan="1">2019-09-06</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-13">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-13">Hotfix 13</a></td><td colspan="1">2019-09-06</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-13">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-12">Hotfix 12</a></td><td colspan="1">2019-08-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-11">Hotfix 11</a></td><td colspan="1">2019-08-06</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-10">Hotfix 10</a></td><td colspan="1">2019-07-15</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-09">Hotfix 09</a></td><td colspan="1">2019-06-28</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-08">Hotfix 08</a></td><td colspan="1">2019-06-14</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-08">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-08">Hotfix 08</a></td><td colspan="1">2019-06-14</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-08">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-07">Hotfix 07</a></td><td colspan="1">2019-05-23</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-06">Hotfix 06</a></td><td colspan="1">2019-05-09</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-06">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-05">Hotfix 05</a></td><td colspan="1">2019-04-25</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-05">Yes</a></td></tr>
-<tr><td colspan="1"><a href="#hotfix-04">Hotfix 04</a></td><td colspan="1">2019-04-04</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-04">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-06">Hotfix 06</a></td><td colspan="1">2019-05-09</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-06">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-05">Hotfix 05</a></td><td colspan="1">2019-04-25</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-05">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-04">Hotfix 04</a></td><td colspan="1">2019-04-04</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-04">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2019-03-21</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1"><a href="https://doc.nuxeo.com/1010/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-02">Yes</a></td></tr>
+<tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
+</tbody></table></div>
+
+## [Hotfix 31](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20708)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1218">ELEMENTS-1218</a></td><td colspan="1">Prevent nuxeo-selectivity from trying to get suggestion when the operation is an empty string</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1230">ELEMENTS-1230</a></td><td colspan="1">Fix the display of a multiple suggestion in the nuxeo-data-table header</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29389">NXP-29389</a></td><td colspan="1">Fix deserialization of some dates with Marklogic</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29201">NXP-29201</a></td><td colspan="1">Fix filters in the Analytics "search" tab</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28972">NXP-28972</a></td><td colspan="1">Fix redirection after handling a task with temporary permission - HTTP 403</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29461">NXP-29461</a></td><td colspan="1">Backporting BulkCommand#Builder(String,String,String) to resolve deprecation in 10.10</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29453">NXP-29453</a></td><td colspan="1">Fix mime-type detection</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29537">NXP-29537</a></td><td colspan="1">Invalid direct S3 download link for versions</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29246">NXP-29246</a></td><td colspan="1">Fix import of MHTML file using Chrome</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29496">NXP-29496</a></td><td colspan="1">Fix S3 Direct Upload for little files (SSE-KMS)</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1208">ELEMENTS-1208</a></td><td colspan="1">Backport tooltip fix for nuxeo-actions-menu</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29141">NXP-29141</a></td><td colspan="1">Backport multi-repository support </td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1212">ELEMENTS-1212</a></td><td colspan="1">Allow table columns to be always visible - not editable on settings modal</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29331">NXP-29331</a></td><td colspan="1">Support flagging repositories as headless</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29498">NXP-29498</a></td><td colspan="1">Add a way to relax the OAuth https constraint</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29200">NXP-29200</a></td><td colspan="1">Add user and group events/categories to platform audit directories</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29495">NXP-29495</a></td><td colspan="1">Add postAuthenticationProcessChecks to SAMLAuthenticationProvider</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29319">NXP-29319</a></td><td colspan="1">Allow using arbitrary file keys in S3</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 30](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20652)
@@ -41,24 +73,24 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1204">ELEMENTS-1204</a></td><td colspan="1">Fix directory suggestion widgets in import tab when setting properties on multiple files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1206">ELEMENTS-1206</a></td><td colspan="1">Fix title in cards for group permissions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29131">NXP-29131</a></td><td colspan="1">Refresh AWS credentials when expired during an S3 upload</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29245">NXP-29245</a></td><td colspan="1">Fix NPE in comment service notification</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29326">NXP-29326</a></td><td colspan="1">Fix progress bar when uploading from GDrive with LiveConnect</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29358">NXP-29358</a></td><td colspan="1">Fix stream consumer latency</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29100">NXP-29100</a></td><td colspan="1">Delete the related workflow instances when a document is deleted</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29399">NXP-29399</a></td><td colspan="1">UserManager does too many invalidations</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29347">NXP-29347</a></td><td colspan="1">nuxeo-document-task-assignment-popup should return comment</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29380">NXP-29380</a></td><td colspan="1">Cleanup Listener removeTasksForDeletedDocumentRoute does not scale </td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29439">NXP-29439</a></td><td colspan="1">Fix functional tests not running because of cucumber reports</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29441">NXP-29441</a></td><td colspan="1">Handle correctly parent directory during deserialization</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29404">NXP-29404</a></td><td colspan="1">Fix S3 Direct Upload for big files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29454">NXP-29454</a></td><td colspan="1">Fix WebUI build</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29404">NXP-29404</a></td><td colspan="1">Fix S3 Direct Upload for big files</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29100">NXP-29100</a></td><td colspan="1">Delete the related workflow instances when a document is deleted</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29245">NXP-29245</a></td><td colspan="1">Fix NPE in comment service notification</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29399">NXP-29399</a></td><td colspan="1">UserManager does too many invalidations</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28889">NXP-28889</a></td><td colspan="1">Fix navigation to document whose URL contains newline </td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29439">NXP-29439</a></td><td colspan="1">Fix functional tests not running because of cucumber reports</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29098">NXP-29098</a></td><td colspan="1">Migration Service Improvements</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29361">NXP-29361</a></td><td colspan="1">Add an option to disable Stream Processing</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29098">NXP-29098</a></td><td colspan="1">Migration Service Improvements</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -68,11 +100,11 @@
 
 #### Improvement(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29198">NXP-29198</a></td><td colspan="1">stream.sh position should support exact offset</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29336">NXP-29336</a></td><td colspan="1">Improve JSF Admin NOS registration page in offline case</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29446">NXP-29446</a></td><td colspan="1">Backport MongoDBConnectionService#getClient method</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29198">NXP-29198</a></td><td colspan="1">stream.sh position should support exact offset</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29329">NXP-29329</a></td><td colspan="1">nuxeo-web-ui-ftest does not find feature files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29210">NXP-29210</a></td><td colspan="1">Make document-form-layout navigate do the document/response returned by the PUT request</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29446">NXP-29446</a></td><td colspan="1">Backport MongoDBConnectionService#getClient method</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 29](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20621)
@@ -81,7 +113,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1189">ELEMENTS-1189</a></td><td colspan="1">Fix offset arrow down icon in nuxeo-selectivity when using a label</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1185">ELEMENTS-1185</a></td><td colspan="1">Set file error when upload fails</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28726">NXP-28726</a></td><td colspan="1">Fix woodstox library version used by add nuxeo-management-rest-api 1.0.0</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29252">NXP-29252</a></td><td colspan="1">EasyShareFolder expiration notification is missing the title</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28923">NXP-28923</a></td><td colspan="1">Fix blank screen in Spreadsheet Editor when column on a blob's property is included</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29256">NXP-29256</a></td><td colspan="1">Fix class UserMapperBasedResolver</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28740">NXP-28740</a></td><td colspan="1">OpenID auth via Github will stop working on July 1 2020 </td></tr>
@@ -99,6 +130,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29215">NXP-29215</a></td><td colspan="1">include "advanced" admin-audit level filtering on doc history [Backport]</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29099">NXP-29099</a></td><td colspan="1">Delete the related tasks when a Workflow instance is deleted</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29171">NXP-29171</a></td><td colspan="1">Fix update of task's variable of type user/group using JSON entity type 'group' via REST API</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29252">NXP-29252</a></td><td colspan="1">EasyShareFolder expiration notification is missing the title</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -118,16 +150,16 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1192">ELEMENTS-1192</a></td><td colspan="1">Improve the audit page provider filter [Backport]</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-838">ELEMENTS-838</a></td><td colspan="1">Add abort support in nuxeo-uploader-behavior</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29260">NXP-29260</a></td><td colspan="1">Fix typo in test package name of nuxeo-core-bulk MyFileScroll</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29257">NXP-29257</a></td><td colspan="1">fix audit view date filter label japanese translation</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29258">NXP-29258</a></td><td colspan="1">fix new permission dialog date label japanese translations</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29266">NXP-29266</a></td><td colspan="1">Upgrade to Apache httpclient 4.5.11</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29238">NXP-29238</a></td><td colspan="1">Enable to register a Processor without running it (10.10 Backport)</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26620">NXP-26620</a></td><td colspan="1">Add abort actions on upload widgets</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29291">NXP-29291</a></td><td colspan="1">Bump the transient store L1 cache TTL to 3 days by default</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29275">NXP-29275</a></td><td colspan="1">Add document types to the retention rules view layout</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29231">NXP-29231</a></td><td colspan="1">Backport NXP-26676 to add missing MongoDB index for renditions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28291">NXP-28291</a></td><td colspan="1">Gracefully handle upload errors on document import</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29292">NXP-29292</a></td><td colspan="1">Use AWS TransferManager in S3DirectBatchHandler</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29231">NXP-29231</a></td><td colspan="1">Backport NXP-26676 to add missing MongoDB index for renditions</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29257">NXP-29257</a></td><td colspan="1">fix audit view date filter label japanese translation</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29258">NXP-29258</a></td><td colspan="1">fix new permission dialog date label japanese translations</td></tr>
 </tbody></table></div>
 
 #### Clean up(s)
@@ -139,7 +171,6 @@
 ## [Hotfix 28](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20606)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29146">NXP-29146</a></td><td colspan="1">Fix exception when refreshing OAuth2 credentials with Google Cloud Storage</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29067">NXP-29067</a></td><td colspan="1">Cleanup CommandLineConverter temporary files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28338">NXP-28338</a></td><td colspan="1">Translate action keys in Workflow analytics</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29174">NXP-29174</a></td><td colspan="1">Fix connection to Elasticsearch and SSL</td></tr>
@@ -148,6 +179,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28921">NXP-28921</a></td><td colspan="1">Fix "Cannot read property 'length' of null" with spreadsheet editor</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28634">NXP-28634</a></td><td colspan="1">Fix faulty infinite scroll in HISTORY tab</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28353">NXP-28353</a></td><td colspan="1">Fix action buttons display in Safari 13.x</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29146">NXP-29146</a></td><td colspan="1">Fix exception when refreshing OAuth2 credentials with Google Cloud Storage</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -155,11 +187,11 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1184">ELEMENTS-1184</a></td><td colspan="1">Allow using automation API in nuxeo-page-provider</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29158">NXP-29158</a></td><td colspan="1">Allow manual upgrade to H2 1.4.200 in Nuxeo 10.10</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29157">NXP-29157</a></td><td colspan="1">Allow skipping aggregates in Repository.PageProvider</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29038">NXP-29038</a></td><td colspan="1">Extend Bulk Service to accept non Document command</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29216">NXP-29216</a></td><td colspan="1">Improve test timeout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28863">NXP-28863</a></td><td colspan="1">include "advanced" admin-audit level filtering on doc history</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28701">NXP-28701</a></td><td colspan="1">Expose FileManager folder create API via HTTP</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29126">NXP-29126</a></td><td colspan="1">Allow using automation API in nuxeo-page-provider</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29038">NXP-29038</a></td><td colspan="1">Extend Bulk Service to accept non Document command</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 27](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20582)
@@ -228,10 +260,10 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29066">NXP-29066</a></td><td colspan="1">Init of the ACL document root occurs many times</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29064">NXP-29064</a></td><td colspan="1">Fix bad kafka.max.poll.interval.ms in perf template</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28990">NXP-28990</a></td><td colspan="1">Fix regression in JSF UI document suggestion widget introduced by NXP-27564</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26190">NXP-26190</a></td><td colspan="1">Fix Easyshare not to display versions among suggestions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28964">NXP-28964</a></td><td colspan="1">Fix annotation handling under a version</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28812">NXP-28812</a></td><td colspan="1">Terminate multipart upload to S3 when user cancels the blob upload</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28787">NXP-28787</a></td><td colspan="1">Fix tooltip on delete button of a drive synchronized root in the Web UI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26190">NXP-26190</a></td><td colspan="1">Fix Easyshare not to display versions among suggestions</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -326,7 +358,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28484">NXP-28484</a></td><td colspan="1">Updating annotation text from webui removes external entity metadata</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28571">NXP-28571</a></td><td colspan="1">Make S3BinaryManager.abortOldUploads async and optional</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28518">NXP-28518</a></td><td colspan="1">Fix TestSQLBackendArrayColumns.testBulkFetch on PostgreSQL</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28526">NXP-28526</a></td><td colspan="1">Make S3 Direct Upload compatible with S3-like storage</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27154">NXP-27154</a></td><td colspan="1">Task list should be refreshed when displaying home page</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28524">NXP-28524</a></td><td colspan="1">Improve ComputationRunner resiliency when Kafka is not reachable</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28606">NXP-28606</a></td><td colspan="1">Fix blank screen in Spreadsheet Editor when 'thumbnail' column is included</td></tr>
@@ -340,6 +371,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28731">NXP-28731</a></td><td colspan="1">Create comments on a placeless document must be effective</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28703">NXP-28703</a></td><td colspan="1">Fix Tomcat AJP</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27835">NXP-27835</a></td><td colspan="1">Fix element 'nuxeo-clipboard' when it copies/moves a proxy in a section</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28526">NXP-28526</a></td><td colspan="1">Make S3 Direct Upload compatible with S3-like storage</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -402,7 +434,6 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1068">ELEMENTS-1068</a></td><td colspan="1">Group name containing quote is not displayed when searched</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1115">ELEMENTS-1115</a></td><td colspan="1">"Add to Collection" Button not sending relevant information</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28433">NXP-28433</a></td><td colspan="1">Fix nullifying a multi-valued complex property</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28274">NXP-28274</a></td><td colspan="1">Don't assume picture dimensions prior to conversion</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28403">NXP-28403</a></td><td colspan="1">Fix Elasticsearch query for history with multi-tenant isolation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28500">NXP-28500</a></td><td colspan="1">Do not set ETag header in initial stored, lazy rendition "empty" response</td></tr>
@@ -418,10 +449,11 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28050">NXP-28050</a></td><td colspan="1">Add Set Legal Hold Bulk Action</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28550">NXP-28550</a></td><td colspan="1">Fix test testProxyOnNullTarget on DBS</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28253">NXP-28253</a></td><td colspan="1">Fix wrong notification sent on comment edit</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28373">NXP-28373</a></td><td colspan="1">nuxeoctl hangs on failure with strict mode</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28011">NXP-28011</a></td><td colspan="1">Add support for l10nvocabulary vocabulary layout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27157">NXP-27157</a></td><td colspan="1">Fix query to get Template documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27163">NXP-27163</a></td><td colspan="1">Fix collection and favorites listing refresh when a document is added</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28433">NXP-28433</a></td><td colspan="1">Fix nullifying a multi-valued complex property</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28373">NXP-28373</a></td><td colspan="1">nuxeoctl hangs on failure with strict mode</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28117">NXP-28117</a></td><td colspan="1">Trigger content view reload after closing Spreadsheet editor</td></tr>
 </tbody></table></div>
 
@@ -447,13 +479,13 @@
 
 #### Improvement(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26370">NXP-26370</a></td><td colspan="1">Fix rendering of field of type 'Document' in spreadsheet editor</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26890">NXP-26890</a></td><td colspan="1">Make the selectivity setter helper to clear value before setting a new one on single value mode on ftest framework</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28485">NXP-28485</a></td><td colspan="1">Align nuxeo-management-rest-api addon with HF builds</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28488">NXP-28488</a></td><td colspan="1">Add BlobProvider.supportsSync to avoid relying on BinaryManager for sync tests</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28086">NXP-28086</a></td><td colspan="1">Bulk Service should have an option to use an Elasticsearch scroller</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28334">NXP-28334</a></td><td colspan="1">Create a scroll service</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28499">NXP-28499</a></td><td colspan="1">Upgrade Tomcat to 9.0.30</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26370">NXP-26370</a></td><td colspan="1">Fix rendering of field of type 'Document' in spreadsheet editor</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 20](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20350)
@@ -647,8 +679,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28074">NXP-28074</a></td><td colspan="1">Upgrade Jackson to 2.10.0</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27337">NXP-27337</a></td><td colspan="1">Use the Nuxeo DownloadService framework for CMIS downloads</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27346">NXP-27346</a></td><td colspan="1">Don't timeout during long imports</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27805">NXP-27805</a></td><td colspan="1">S3BinaryManager: allow configurable digest </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28005">NXP-28005</a></td><td colspan="1">Refactor DownloadService.downloadBlob to use builder pattern</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27805">NXP-27805</a></td><td colspan="1">S3BinaryManager: allow configurable digest </td></tr>
 </tbody></table></div>
 
 #### Clean up(s)
@@ -972,12 +1004,12 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26841">NXP-26841</a></td><td colspan="1">Quota exception not raised when version is incremented</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26840">NXP-26840</a></td><td colspan="1">Do not log the exception when trying to reach Connect server with org.nuxeo.connect.server.reachable=false</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26708">NXP-26708</a></td><td colspan="1">Fix Document.RemoveItemFromListProperty throwing ClassCastException</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26691">NXP-26691</a></td><td colspan="1">StreamWorkManager workaround for large work</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26527">NXP-26527</a></td><td colspan="1">Improve error handling in ImagingComponent</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26505">NXP-26505</a></td><td colspan="1">Picture rotation buttons available with read-only rights</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24865">NXP-24865</a></td><td colspan="1">Fix 'single directory radio' widget with 'onchange' custom property when used in list or complex field</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27197">NXP-27197</a></td><td colspan="1">NPE on accessing proxy without source document</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27204">NXP-27204</a></td><td colspan="1">Fix NPE on UIUserAndGroupSelectItems.getValue()</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26691">NXP-26691</a></td><td colspan="1">StreamWorkManager workaround for large work</td></tr>
 </tbody></table></div>
 
 #### Task(s)
