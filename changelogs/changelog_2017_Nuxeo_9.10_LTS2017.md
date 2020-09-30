@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-48">Hotfix 48</a></td><td colspan="1">2020-09-20</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-47">Hotfix 47</a></td><td colspan="1">2020-08-18</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-46">Hotfix 46</a></td><td colspan="1">2020-07-20</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-45">Hotfix 45</a></td><td colspan="1">2020-06-19</td><td colspan="1">No</td></tr>
@@ -51,23 +52,37 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2018-02-08</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-01">Yes</a></td></tr>
 </tbody></table></div>
 
+## [Hotfix 48](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20743)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1230">ELEMENTS-1230</a></td><td colspan="1">Fix the display of a multiple suggestion in the nuxeo-data-table header</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29690">NXP-29690</a></td><td colspan="1">Don't save non-dirty toplevel property (9.10 backport)</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29678">NXP-29678</a></td><td colspan="1">Query failure on duplicate documents returned</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29661">NXP-29661</a></td><td colspan="1">Upgrade Tomcat to 8.5.58</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29698">NXP-29698</a></td><td colspan="1">Upgrade MongoDB Java Driver to 3.12.1</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 47](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20696)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1213">ELEMENTS-1213</a></td><td colspan="1">Backport performance improvements for listings for 2.2.x</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29380">NXP-29380</a></td><td colspan="1">Cleanup Listener removeTasksForDeletedDocumentRoute does not scale </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29100">NXP-29100</a></td><td colspan="1">Delete the related workflow instances when a document is deleted</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29270">NXP-29270</a></td><td colspan="1">Subfolders trashed/untrashed by user "system" instead of real user</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28791">NXP-28791</a></td><td colspan="1">Limit size of assets list in the Search view</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29380">NXP-29380</a></td><td colspan="1">Cleanup Listener removeTasksForDeletedDocumentRoute does not scale </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29246">NXP-29246</a></td><td colspan="1">Fix import of MHTML file using Chrome</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 46](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20639)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29399">NXP-29399</a></td><td colspan="1">UserManager does too many invalidations</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28783">NXP-28783</a></td><td colspan="1">Fix version dropdown menu to display version creator, not document creator</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29365">NXP-29365</a></td><td colspan="1">Fix collections drawer refresh when trashing/restoring a collection</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29399">NXP-29399</a></td><td colspan="1">UserManager does too many invalidations</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -254,8 +269,8 @@
 #### Improvement(s)
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28154">NXP-28154</a></td><td colspan="1">Upgrade commons-codec to 11.1</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27346">NXP-27346</a></td><td colspan="1">Don't timeout during long imports</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27805">NXP-27805</a></td><td colspan="1">S3BinaryManager: allow configurable digest </td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27346">NXP-27346</a></td><td colspan="1">Don't timeout during long imports</td></tr>
 </tbody></table></div>
 
 #### Clean up(s)
@@ -457,7 +472,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26840">NXP-26840</a></td><td colspan="1">Do not log the exception when trying to reach Connect server with org.nuxeo.connect.server.reachable=false</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26745">NXP-26745</a></td><td colspan="1">Remove _original files when setting metadata on binaries</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26708">NXP-26708</a></td><td colspan="1">Fix Document.RemoveItemFromListProperty throwing ClassCastException</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26691">NXP-26691</a></td><td colspan="1">StreamWorkManager workaround for large work</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26527">NXP-26527</a></td><td colspan="1">Improve error handling in ImagingComponent</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24865">NXP-24865</a></td><td colspan="1">Fix 'single directory radio' widget with 'onchange' custom property when used in list or complex field</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24819">NXP-24819</a></td><td colspan="1">Don't do orphan versions cleanup by default</td></tr>
@@ -466,6 +480,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25058">NXP-25058</a></td><td colspan="1">Render With Template shows all template versions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27025">NXP-27025</a></td><td colspan="1">Audit search date filter does not work if beginDate equals endDate</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26816">NXP-26816</a></td><td colspan="1">Fetching current task should resolve fields</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26691">NXP-26691</a></td><td colspan="1">StreamWorkManager workaround for large work</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -610,8 +625,8 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-808">ELEMENTS-808</a></td><td colspan="1">Make the nuxeo-date-picker label turn red when invalid</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-791">ELEMENTS-791</a></td><td colspan="1">Backport vaadin based date-picker for 9.10</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-730">ELEMENTS-730</a></td><td colspan="1">Fix display of multi-level vocabulary</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-577">ELEMENTS-577</a></td><td colspan="1">Can't select today's date in Safari 11</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-730">ELEMENTS-730</a></td><td colspan="1">Fix display of multi-level vocabulary</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24117">NXP-24117</a></td><td colspan="1">Fix FT test steps that rely on dates</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26404">NXP-26404</a></td><td colspan="1">Invalidate default domain location when its lifecycle changes</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26306">NXP-26306</a></td><td colspan="1">Fix conversion with LibreOffice >= 5.3</td></tr>
