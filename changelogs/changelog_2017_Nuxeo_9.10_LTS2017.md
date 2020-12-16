@@ -2,7 +2,8 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
-<tr><td colspan="1"><a href="#hotfix-49">Hotfix 49</a></td><td colspan="1">2020-10-30</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-50">Hotfix 50</a></td><td colspan="1">2020-12-14</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-49">Hotfix 49</a></td><td colspan="1">2020-11-13</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-48">Hotfix 48</a></td><td colspan="1">2020-09-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-47">Hotfix 47</a></td><td colspan="1">2020-08-18</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-46">Hotfix 46</a></td><td colspan="1">2020-07-20</td><td colspan="1">No</td></tr>
@@ -51,6 +52,20 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2018-03-12</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-03">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2018-02-22</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2018-02-08</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/910/hotfixes-installation-notes-for-nuxeo-platform-lts-2017/#hotfix-01">Yes</a></td></tr>
+</tbody></table></div>
+
+## [Hotfix 50](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20894)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29861">NXP-29861</a></td><td colspan="1">Fix random failure of testArrayConcurrentPushToEmpty on MongoDB</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29859">NXP-29859</a></td><td colspan="1">Fix page provider execution when editing a saved search</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1248">ELEMENTS-1248</a></td><td colspan="1">Upgrade PDF.js to v2.6.347</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29869">NXP-29869</a></td><td colspan="1">Upgrade Tomcat to 8.5.60</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29947">NXP-29947</a></td><td colspan="1">Upgrade Tomcat to 8.5.61</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 49](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20795)
@@ -175,10 +190,10 @@
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28770">NXP-28770</a></td><td colspan="1">Fix merge of MongoDB repository configuration descriptors</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28703">NXP-28703</a></td><td colspan="1">Fix Tomcat AJP</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27429">NXP-27429</a></td><td colspan="1">Using the search tool on iOS and Android in "vertical mode", buttons "Reinit" and "Search" are not reachable</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28638">NXP-28638</a></td><td colspan="1">Running workflows not displayed for user not involved but with permissions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24967">NXP-24967</a></td><td colspan="1">Make saved search emails work</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28703">NXP-28703</a></td><td colspan="1">Fix Tomcat AJP</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -199,10 +214,10 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28661">NXP-28661</a></td><td colspan="1">Allow concurrent startup of Nuxeo instances</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28526">NXP-28526</a></td><td colspan="1">Make S3 Direct Upload compatible with S3-like storage</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28497">NXP-28497</a></td><td colspan="1">WebUI interface should not allow DirectEdit button on proxies</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28406">NXP-28406</a></td><td colspan="1">Handle duplicates with MongoDB</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28231">NXP-28231</a></td><td colspan="1">Allow concurrent startup of SQL Directory</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27654">NXP-27654</a></td><td colspan="1">Add a unique index on ecm:id in MongoDB</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26003">NXP-26003</a></td><td colspan="1">Fix retrieval of personal workspace for user with special characters</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28406">NXP-28406</a></td><td colspan="1">Handle duplicates with MongoDB</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -575,7 +590,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-850">ELEMENTS-850</a></td><td colspan="1">Fix notification email input's wrapping when assigning permission</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-853">ELEMENTS-853</a></td><td colspan="1">Group name/id is not sanitized before creation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25187">NXP-25187</a></td><td colspan="1">Fix OpenID module authentication</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24700">NXP-24700</a></td><td colspan="1">Fix widget 'Multiple generic suggestion (advanced)' when used in a multi-valued complex property</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24868">NXP-24868</a></td><td colspan="1">Download through contextual menu in content view does not work</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24867">NXP-24867</a></td><td colspan="1">Types configuration in children with same settings does not work</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25812">NXP-25812</a></td><td colspan="1">Republishing a document removes its alerts subscriptions</td></tr>
@@ -584,6 +598,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26683">NXP-26683</a></td><td colspan="1">Fix rendition download to use proper reason/rendition in permission check</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26665">NXP-26665</a></td><td colspan="1">Fix DocumentNotFoundException with BridgeTagService</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26696">NXP-26696</a></td><td colspan="1">Fix LogEntryProvider#queryLogs(AuditQueryBuilder) when using Predicates#in</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24700">NXP-24700</a></td><td colspan="1">Fix widget 'Multiple generic suggestion (advanced)' when used in a multi-valued complex property</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 26](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=19591)
