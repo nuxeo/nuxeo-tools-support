@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-39">Hotfix 39</a></td><td colspan="1">2021-01-20</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-38">Hotfix 38</a></td><td colspan="1">2021-01-06</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-37">Hotfix 37</a></td><td colspan="1">2020-12-11</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-36">Hotfix 36</a></td><td colspan="1">2020-11-20</td><td colspan="1">No</td></tr>
@@ -40,6 +41,32 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2019-03-21</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-02">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
+</tbody></table></div>
+
+## [Hotfix 39](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20988)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1299">ELEMENTS-1299</a></td><td colspan="1">Backport fix for nuxeo-path-suggestion validation error on paper-typeahead</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29810">NXP-29810</a></td><td colspan="1">Document.Mail should respect the setting of the Nuxeo SMTP services state</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29865">NXP-29865</a></td><td colspan="1">Fix JSF Email document notification to mail all members of a group</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25485">NXP-25485</a></td><td colspan="1">Take into account the local configuration to filter the document types available for creation in WebUI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30010">NXP-30010</a></td><td colspan="1">Improve concurrent updates removing elements from lists on MongoDB </td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29867">NXP-29867</a></td><td colspan="1">Fix custom HTTP code thrown by event listener being ignored when DnD'ing a file in a folder in the Web UI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29983">NXP-29983</a></td><td colspan="1">Improve constraint violation error message in REST API</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30048">NXP-30048</a></td><td colspan="1">Improve concurrent delete of proxies</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29723">NXP-29723</a></td><td colspan="1">Implement event information for workflowTaskReassigned and workflowTaskDelegated</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29966">NXP-29966</a></td><td colspan="1">Fix recomputation processes when creating a version for documents with 'Video' facet</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1303">ELEMENTS-1303</a></td><td colspan="1">Update node requirements on ELEMENTS</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30060">NXP-30060</a></td><td colspan="1">Backport NXP-28743 on 10.10</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30059">NXP-30059</a></td><td colspan="1">Don't use underscores in custom HTTP headers</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 38](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20944)
@@ -123,8 +150,8 @@
 #### Improvement(s)
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1223">ELEMENTS-1223</a></td><td colspan="1">Enforce strong validation while typing the date in element nuxeo-date-picker</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29759">NXP-29759</a></td><td colspan="1">Make the task endpoint use the UserManagerResolver</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29814">NXP-29814</a></td><td colspan="1">Don't WARN about ObjectLockConfiguration on regular S3 buckets</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29759">NXP-29759</a></td><td colspan="1">Make the task endpoint use the UserManagerResolver</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 35](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20860)
@@ -133,7 +160,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1258">ELEMENTS-1258</a></td><td colspan="1">Disable the possibility to Start a Process on a Record</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1262">ELEMENTS-1262</a></td><td colspan="1">Fix Alloy toolbar buttons to work after CSP compatibility change</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29733">NXP-29733</a></td><td colspan="1">Fix task completion on document attached to a retention rule</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28554">NXP-28554</a></td><td colspan="1">Fix editing then saving a saved search</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29795">NXP-29795</a></td><td colspan="1">Fix CSV export with S3 blobs</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29726">NXP-29726</a></td><td colspan="1">Fix use of custom retention end action</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29791">NXP-29791</a></td><td colspan="1">Forbid deletion of the main blob of a document under retention / legal hold</td></tr>
@@ -141,6 +167,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29488">NXP-29488</a></td><td colspan="1">Fix NPE in MimeTypeTranslationHelper</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29450">NXP-29450</a></td><td colspan="1">Fix the conditions when DuplicatedCollectionListener will process the documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28609">NXP-28609</a></td><td colspan="1">Fix ContextFunctions#formatDate to work with Calendar objects</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28554">NXP-28554</a></td><td colspan="1">Fix editing then saving a saved search</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -175,9 +202,9 @@
 
 #### Improvement(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1250">ELEMENTS-1250</a></td><td colspan="1">Fix scrollbars issues</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1244">ELEMENTS-1244</a></td><td colspan="1">Allow date widgets to use UTC mode</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1256">ELEMENTS-1256</a></td><td colspan="1">Make Alloy CSP compatible</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1250">ELEMENTS-1250</a></td><td colspan="1">Fix scrollbars issues</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29729">NXP-29729</a></td><td colspan="1">Improve nuxeoctl showconf</td></tr>
 </tbody></table></div>
 
@@ -424,12 +451,12 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1178">ELEMENTS-1178</a></td><td colspan="1">in audit, show the time along with the date</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29115">NXP-29115</a></td><td colspan="1">Add default Referrer-Policy header</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29137">NXP-29137</a></td><td colspan="1">Fix unique constraint error in SQL database logs when initializing a batch for upload</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29112">NXP-29112</a></td><td colspan="1">Allow configuration of MongoDB query max execution time</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29065">NXP-29065</a></td><td colspan="1">Allow saving original request path</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29111">NXP-29111</a></td><td colspan="1">Allow full configuration of MongoDB connection</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29060">NXP-29060</a></td><td colspan="1">WebUI ftest framework features location</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29151">NXP-29151</a></td><td colspan="1">Use HTTP code 400 instead of 500 for Automation request parsing errors</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28862">NXP-28862</a></td><td colspan="1">in audit, show the time along with the date</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29112">NXP-29112</a></td><td colspan="1">Allow configuration of MongoDB query max execution time</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29111">NXP-29111</a></td><td colspan="1">Allow full configuration of MongoDB connection</td></tr>
 </tbody></table></div>
 
 #### Question(s)
@@ -1059,11 +1086,11 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27535">NXP-27535</a></td><td colspan="1">Allow non-Administrators to save searches</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27568">NXP-27568</a></td><td colspan="1">Skip repository initialization if MongoDB database is already set up</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27615">NXP-27615</a></td><td colspan="1">Fix nuxeo-diff content comparison broken since 10.10</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27629">NXP-27629</a></td><td colspan="1">Fix editGroupDialogButton selector in webUI ftest framework</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27530">NXP-27530</a></td><td colspan="1">Long breadcrumb hides the document action buttons</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27317">NXP-27317</a></td><td colspan="1">Fix Internal Publication and Selectivity Web UI ftests</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27451">NXP-27451</a></td><td colspan="1">Clipboard should respect Accepted Children Types</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27073">NXP-27073</a></td><td colspan="1">Fix call to fetch favorites on dashboard after database initialization</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27629">NXP-27629</a></td><td colspan="1">Fix editGroupDialogButton selector in webUI ftest framework</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -1136,7 +1163,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-942">ELEMENTS-942</a></td><td colspan="1">Fix unnecessary dom flush in page provider display behavior</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-958">ELEMENTS-958</a></td><td colspan="1">Page Provider parameters sending complete JSON objects</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-948">ELEMENTS-948</a></td><td colspan="1">Add css variables to selectivity</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27186">NXP-27186</a></td><td colspan="1">Fix editing dates in webui-ftests framework</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27292">NXP-27292</a></td><td colspan="1">Improve KVBlobTransientStore putBlobs concurrency</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27063">NXP-27063</a></td><td colspan="1">Shared asset searches should display results</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27304">NXP-27304</a></td><td colspan="1">Document tree not refreshed when documents are created</td></tr>
@@ -1146,6 +1172,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27259">NXP-27259</a></td><td colspan="1">Fix Worklist export as Zip to handle filename without extension</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27386">NXP-27386</a></td><td colspan="1">WOPI pub/sub crashes in cluster with Redis</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27077">NXP-27077</a></td><td colspan="1">Add mixins to configure the background color of suggestion elements</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27186">NXP-27186</a></td><td colspan="1">Fix editing dates in webui-ftests framework</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
