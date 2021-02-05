@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-41">Hotfix 41</a></td><td colspan="1">2021-02-05</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-40">Hotfix 40</a></td><td colspan="1">2021-02-03</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-39">Hotfix 39</a></td><td colspan="1">2021-01-20</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-38">Hotfix 38</a></td><td colspan="1">2021-01-06</td><td colspan="1">No</td></tr>
@@ -44,16 +45,28 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 41](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21061)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30134">NXP-30134</a></td><td colspan="1">Fix MongoDB query maxTime</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30127">NXP-30127</a></td><td colspan="1">Fix plantuml rendering of Nuxeo Stream Topology in 10.10</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 40](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21037)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30090">NXP-30090</a></td><td colspan="1">Fix algorithm to unpublish a document</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30037">NXP-30037</a></td><td colspan="1">Fix CSV export for mixed content with Vocabulary metadata</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30090">NXP-30090</a></td><td colspan="1">Fix algorithm to unpublish a document</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30081">NXP-30081</a></td><td colspan="1">Add Idempotency Key support to RequestController (10.10)</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30045">NXP-30045</a></td><td colspan="1">Adjust the MongoDB query maxTime with transaction timeout</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 39](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20988)
@@ -604,12 +617,12 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28483">NXP-28483</a></td><td colspan="1">Non admin user can't add or edit text on the freetext box annotation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28674">NXP-28674</a></td><td colspan="1">Fix regression in page provider 'default_collection_candidate'</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28518">NXP-28518</a></td><td colspan="1">Fix TestSQLBackendArrayColumns.testBulkFetch on PostgreSQL</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28661">NXP-28661</a></td><td colspan="1">Allow concurrent startup of Nuxeo instances</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28484">NXP-28484</a></td><td colspan="1">Updating annotation text from webui removes external entity metadata</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28524">NXP-28524</a></td><td colspan="1">Improve ComputationRunner resiliency when Kafka is not reachable</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28638">NXP-28638</a></td><td colspan="1">Running workflows not displayed for user not involved but with permissions</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28703">NXP-28703</a></td><td colspan="1">Fix Tomcat AJP</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28700">NXP-28700</a></td><td colspan="1">Fix external entity retrieval when commented document is versioned</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28661">NXP-28661</a></td><td colspan="1">Allow concurrent startup of Nuxeo instances</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
