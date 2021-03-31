@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-44">Hotfix 44</a></td><td colspan="1">2021-03-31</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-43">Hotfix 43</a></td><td colspan="1">2021-03-12</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-42">Hotfix 42</a></td><td colspan="1">2021-02-26</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-41">Hotfix 41</a></td><td colspan="1">2021-02-05</td><td colspan="1">No</td></tr>
@@ -47,17 +48,50 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 44](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21126)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1329">ELEMENTS-1329</a></td><td colspan="1">nuxeo-path-suggestion is marked as invalid in the first display</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1324">ELEMENTS-1324</a></td><td colspan="1">Fix CSV Export</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30238">NXP-30238</a></td><td colspan="1">Security policy to filter annotations is not working in NEV</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30205">NXP-30205</a></td><td colspan="1">Fix how enricher priority is taken into account.</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30271">NXP-30271</a></td><td colspan="1">Key/Value Store GC shouldn't remove cache temporary files</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30188">NXP-30188</a></td><td colspan="1">Dedicate default WorkManager queue for Custom Works</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30270">NXP-30270</a></td><td colspan="1">ComponentManager listeners should be called within a try/catch</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30083">NXP-30083</a></td><td colspan="1">Fix CAS authentication anonymous client change of behavior introduced with NXP-23246</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30274">NXP-30274</a></td><td colspan="1">Timeout on CommandLine Executor fails for Windows</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30244">NXP-30244</a></td><td colspan="1">Prevent Transaction Timeout during updateThumbnailListener</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30269">NXP-30269</a></td><td colspan="1">Remove picture migration at startup</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30241">NXP-30241</a></td><td colspan="1">Fix upload of a Google Drive shared file</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30253">NXP-30253</a></td><td colspan="1">Upgrade Tomcat to 9.0.44</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30233">NXP-30233</a></td><td colspan="1">Bulk Scroller should complete command in error when query times out</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30234">NXP-30234</a></td><td colspan="1">Local Avro Schema Store should be shared and dynamic</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30240">NXP-30240</a></td><td colspan="1">Prevent IllegalArgumentException during retry mechanism of AbstractWork</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30052">NXP-30052</a></td><td colspan="1">Return a HTTP 400 (bad request) when creating a document with a non-existing type</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30075">NXP-30075</a></td><td colspan="1">Map VersionNotModifiableException to a bad request 400</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 43](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21103)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1318">ELEMENTS-1318</a></td><td colspan="1">Fix CSV export of NXQL search in Web UI when using IN operator</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28450">NXP-28450</a></td><td colspan="1">Allow configuration of Signature Algorithm for SAML</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30182">NXP-30182</a></td><td colspan="1">Increase Bulk Status TTL on completion with error</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30130">NXP-30130</a></td><td colspan="1">Command line executor must apply a timeout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30213">NXP-30213</a></td><td colspan="1">Fix Redis key/value store fetch of empty key list</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30231">NXP-30231</a></td><td colspan="1">Blob digest must be synthesized properly</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26779">NXP-26779</a></td><td colspan="1">Inconsistent mimetype in webui file drag and drop</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30056">NXP-30056</a></td><td colspan="1">Use OfficePreviewer to preview RTF documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30171">NXP-30171</a></td><td colspan="1">Return http status code based on exception thrown</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30246">NXP-30246</a></td><td colspan="1">Fix bulk delete of Vocabulary metadata with spreadsheet editor</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30130">NXP-30130</a></td><td colspan="1">Command line executor must apply a timeout</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -67,15 +101,10 @@
 
 #### Improvement(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25667">NXP-25667</a></td><td colspan="1">Add RemoteIpValve to default Tomcat configuration</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30135">NXP-30135</a></td><td colspan="1">Extend cluster-wide lock to Workflow model import</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30118">NXP-30118</a></td><td colspan="1">Backport S3 NXFTL to 10.10</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30100">NXP-30100</a></td><td colspan="1">Nuxeo health check should trace failure</td></tr>
-</tbody></table></div>
-
-#### Question(s)
-<div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30056">NXP-30056</a></td><td colspan="1">Use OfficePreviewer to preview RTF documents</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25667">NXP-25667</a></td><td colspan="1">Add RemoteIpValve to default Tomcat configuration</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30118">NXP-30118</a></td><td colspan="1">Backport S3 NXFTL to 10.10</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 42](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21066)
@@ -327,12 +356,12 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1219">ELEMENTS-1219</a></td><td colspan="1">Fix error when refreshI18n is called</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1214">ELEMENTS-1214</a></td><td colspan="1">Fix consistency alignment for paper-input on data table</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29183">NXP-29183</a></td><td colspan="1">Fix content view(s) and page provider(s) related to workflow models</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29237">NXP-29237</a></td><td colspan="1">Make GetChangeSummary work with mongodb-audit</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29297">NXP-29297</a></td><td colspan="1">String and Date workflow variables are not recorded in the audit trail</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29393">NXP-29393</a></td><td colspan="1">Fix NPE when checking JWT token</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29572">NXP-29572</a></td><td colspan="1">Fix error body parsing with conflict (HTTP 409 response)</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29631">NXP-29631</a></td><td colspan="1">Fix nuxeoctl start hang</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29401">NXP-29401</a></td><td colspan="1">nuxeoctl showconf json output does not support multiline description</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29237">NXP-29237</a></td><td colspan="1">Make GetChangeSummary work with mongodb-audit</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -756,7 +785,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28011">NXP-28011</a></td><td colspan="1">Add support for l10nvocabulary vocabulary layout</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26783">NXP-26783</a></td><td colspan="1">OneDrive LiveConnect icon not visible in blob actions list</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28373">NXP-28373</a></td><td colspan="1">nuxeoctl hangs on failure with strict mode</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28117">NXP-28117</a></td><td colspan="1">Trigger content view reload after closing Spreadsheet editor</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28550">NXP-28550</a></td><td colspan="1">Fix test testProxyOnNullTarget on DBS</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27918">NXP-27918</a></td><td colspan="1">Fix 'Spreadsheet editor' when displaying column for a multi-valued string field</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28521">NXP-28521</a></td><td colspan="1">Fix MongoDB upsert retry to avoid duplicate key error</td></tr>
@@ -772,6 +800,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27163">NXP-27163</a></td><td colspan="1">Fix collection and favorites listing refresh when a document is added</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28253">NXP-28253</a></td><td colspan="1">Fix wrong notification sent on comment edit</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28406">NXP-28406</a></td><td colspan="1">Handle duplicates with MongoDB</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28117">NXP-28117</a></td><td colspan="1">Trigger content view reload after closing Spreadsheet editor</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
