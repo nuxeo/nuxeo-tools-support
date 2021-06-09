@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-48">Hotfix 48</a></td><td colspan="1">2021-06-09</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-47">Hotfix 47</a></td><td colspan="1">2021-05-17</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-46">Hotfix 46</a></td><td colspan="1">2021-04-29</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-45">Hotfix 45</a></td><td colspan="1">2021-04-14</td><td colspan="1">No</td></tr>
@@ -51,6 +52,30 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 48](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21246)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30412">NXP-30412</a></td><td colspan="1">S3 GC must keep blobs added during GC</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30407">NXP-30407</a></td><td colspan="1">Backport NXP-27911 to 10.10</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30402">NXP-30402</a></td><td colspan="1">Fix converter 'image2pdf'</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30332">NXP-30332</a></td><td colspan="1">Fix matching of subconverter's source MIME type</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30200">NXP-30200</a></td><td colspan="1">Manage the case where workflow definitions have changed</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30401">NXP-30401</a></td><td colspan="1">Bulk Zip Download doesn't create Audit entry for each item downloaded</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30399">NXP-30399</a></td><td colspan="1">Fix Transaction timeout during nuxeoDriveFileSystemDeletionListener</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30427">NXP-30427</a></td><td colspan="1">Retry file move with NoSuchFileException but the file exists</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30266">NXP-30266</a></td><td colspan="1">Fix elasticsearch indexing of property 'ecm:proxyVersionableId' for proxies</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30437">NXP-30437</a></td><td colspan="1">Fix GroupChangesTestSuite.testGroupChangesOnSyncRoot randomly failing with PostgreSQL</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30457">NXP-30457</a></td><td colspan="1">Fix NPE when loading corrupted NuxeoPackage</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30450">NXP-30450</a></td><td colspan="1">Support filtering when reprocessing DLQ Work</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30417">NXP-30417</a></td><td colspan="1">Check immediate parent when emptying trash</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30410">NXP-30410</a></td><td colspan="1">Upgrade Tomcat to 9.0.46</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30441">NXP-30441</a></td><td colspan="1">Upgrade three.js dependency (backport to 10.10)</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 47](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21199)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
@@ -60,13 +85,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1315">ELEMENTS-1315</a></td><td colspan="1">Translate the label lockToggleButton.unlock.error.unexpectedError</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30304">NXP-30304</a></td><td colspan="1">Do not log password when failing to connect to Kafka</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30250">NXP-30250</a></td><td colspan="1">Fix null version on doc inside folder copied from clipboard </td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30357">NXP-30357</a></td><td colspan="1">Correct mime-type in S3DirectBatchHandler</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30122">NXP-30122</a></td><td colspan="1">Fix thumbnails computation when importing a large PDF with S3 BlobProvider</td></tr>
-</tbody></table></div>
-
-#### Task(s)
-<div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30410">NXP-30410</a></td><td colspan="1">Upgrade Tomcat to 9.0.46</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30357">NXP-30357</a></td><td colspan="1">Correct mime-type in S3DirectBatchHandler</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -121,15 +141,15 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1324">ELEMENTS-1324</a></td><td colspan="1">Fix CSV Export</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1329">ELEMENTS-1329</a></td><td colspan="1">nuxeo-path-suggestion is marked as invalid in the first display</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30188">NXP-30188</a></td><td colspan="1">Dedicate default WorkManager queue for Custom Works</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30083">NXP-30083</a></td><td colspan="1">Fix CAS authentication anonymous client change of behavior introduced with NXP-23246</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30269">NXP-30269</a></td><td colspan="1">Remove picture migration at startup</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30270">NXP-30270</a></td><td colspan="1">ComponentManager listeners should be called within a try/catch</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30244">NXP-30244</a></td><td colspan="1">Prevent Transaction Timeout during updateThumbnailListener</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30238">NXP-30238</a></td><td colspan="1">Security policy to filter annotations is not working in NEV</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30241">NXP-30241</a></td><td colspan="1">Fix upload of a Google Drive shared file</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30205">NXP-30205</a></td><td colspan="1">Fix how enricher priority is taken into account.</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30274">NXP-30274</a></td><td colspan="1">Timeout on CommandLine Executor fails for Windows</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30271">NXP-30271</a></td><td colspan="1">Key/Value Store GC shouldn't remove cache temporary files</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30083">NXP-30083</a></td><td colspan="1">Fix CAS authentication anonymous client change of behavior introduced with NXP-23246</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30244">NXP-30244</a></td><td colspan="1">Prevent Transaction Timeout during updateThumbnailListener</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -255,7 +275,6 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1307">ELEMENTS-1307</a></td><td colspan="1">Backport ELEMENTS-1133 Don't use dots or underscores in custom HTTP headers</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30059">NXP-30059</a></td><td colspan="1">Don't use underscores in custom HTTP headers</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30371">NXP-30371</a></td><td colspan="1">Backport NXP-28743 Add the ability to disable the rendition computations</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 38](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20944)
@@ -406,8 +425,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29645">NXP-29645</a></td><td colspan="1">Reindex document removed from a collection synchronously</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29618">NXP-29618</a></td><td colspan="1">Fix handling of object immutability in 'google-storage' addon during mass import</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29678">NXP-29678</a></td><td colspan="1">Query failure on duplicate documents returned</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29703">NXP-29703</a></td><td colspan="1">Fix Kafka availability checking at Nuxeo startup when using SASL SSL</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29673">NXP-29673</a></td><td colspan="1">Missing default value in Avro BulkCommand schema</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29703">NXP-29703</a></td><td colspan="1">Fix Kafka availability checking at Nuxeo startup when using SASL SSL</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -434,9 +453,9 @@
 
 #### New Feature(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-22843">NXP-22843</a></td><td colspan="1">Add ElasticSearch availability checking at Nuxeo startup</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28370">NXP-28370</a></td><td colspan="1">Make version Read permission depend on live doc ReadVersion</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-22844">NXP-22844</a></td><td colspan="1">Add Kafka availability checking at Nuxeo startup</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-22843">NXP-22843</a></td><td colspan="1">Add ElasticSearch availability checking at Nuxeo startup</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -514,11 +533,11 @@
 
 #### Improvement(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29210">NXP-29210</a></td><td colspan="1">Make document-form-layout navigate do the document/response returned by the PUT request</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29446">NXP-29446</a></td><td colspan="1">Backport MongoDBConnectionService#getClient method</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29336">NXP-29336</a></td><td colspan="1">Improve JSF Admin NOS registration page in offline case</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29329">NXP-29329</a></td><td colspan="1">nuxeo-web-ui-ftest does not find feature files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29198">NXP-29198</a></td><td colspan="1">stream.sh position should support exact offset</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29210">NXP-29210</a></td><td colspan="1">Make document-form-layout navigate do the document/response returned by the PUT request</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 29](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20621)
