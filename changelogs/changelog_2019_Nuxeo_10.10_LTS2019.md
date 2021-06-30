@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-49">Hotfix 49</a></td><td colspan="1">2021-06-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-48">Hotfix 48</a></td><td colspan="1">2021-06-09</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-47">Hotfix 47</a></td><td colspan="1">2021-05-17</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-46">Hotfix 46</a></td><td colspan="1">2021-04-29</td><td colspan="1">No</td></tr>
@@ -52,22 +53,59 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 49](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21287)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1372">ELEMENTS-1372</a></td><td colspan="1">Fix Quill buttons in Safari 14</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1369">ELEMENTS-1369</a></td><td colspan="1">nuxeo-path-suggestion not displaying entries after adding nxql_search to elasticsearch override</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30360">NXP-30360</a></td><td colspan="1">Fix search results not being sorted when a quick filter is used</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30219">NXP-30219</a></td><td colspan="1">Fix re-indexing of proxy when parent folder of target document is moved to the trash</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30062">NXP-30062</a></td><td colspan="1">Handle mails with attachments without Content-Disposition</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30434">NXP-30434</a></td><td colspan="1">User Favorites Not Showing in WEB UI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30417">NXP-30417</a></td><td colspan="1">Check immediate parent when emptying trash</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30326">NXP-30326</a></td><td colspan="1">Fix long-running thumbnail generation for large office files</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30281">NXP-30281</a></td><td colspan="1">Add a MongoDB index for Drive getChangeSummary</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30485">NXP-30485</a></td><td colspan="1">Fix TestPictureResize systematic failure in 10.10 T&P</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30444">NXP-30444</a></td><td colspan="1">Fix Nuxeo 10.10 build</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30475">NXP-30475</a></td><td colspan="1">Upgrade Tomcat to 9.0.48</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30477">NXP-30477</a></td><td colspan="1">Add mime type for mts blob</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30382">NXP-30382</a></td><td colspan="1">Tune recomputeThumbnail bulk action to avoid transaction timeout or stream failure</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30294">NXP-30294</a></td><td colspan="1">Possible OOM on XLS fulltext extraction with POI</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30145">NXP-30145</a></td><td colspan="1">Add a parameter not to save the document in the operation 'Document.SetMetadataFromBlob'</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28861">NXP-28861</a></td><td colspan="1">Add an index on the nuxeo.aceinfo:id field for MongoDB repository</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30348">NXP-30348</a></td><td colspan="1">Return a HTTP 404 (not found) when handling uploads with a missing associated file</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30243">NXP-30243</a></td><td colspan="1">Add index on collection:documentIds to optimize RemovedCollectionWork</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30215">NXP-30215</a></td><td colspan="1">Add indexes for user and group directories</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30432">NXP-30432</a></td><td colspan="1">Add MongoDB indexes on fetch annotation requests</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30470">NXP-30470</a></td><td colspan="1">Use longer Elastic timeout for write operation</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30438">NXP-30438</a></td><td colspan="1">Compute update thumbnail in a dedicated transaction per documents</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30368">NXP-30368</a></td><td colspan="1">Take into account fulltext maxSize when computing text in FulltextExtractorWork</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30456">NXP-30456</a></td><td colspan="1">Allow User to specify SSL protocol</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 48](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21246)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30412">NXP-30412</a></td><td colspan="1">S3 GC must keep blobs added during GC</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30407">NXP-30407</a></td><td colspan="1">Backport NXP-27911 to 10.10</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30402">NXP-30402</a></td><td colspan="1">Fix converter 'image2pdf'</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30332">NXP-30332</a></td><td colspan="1">Fix matching of subconverter's source MIME type</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30200">NXP-30200</a></td><td colspan="1">Manage the case where workflow definitions have changed</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30401">NXP-30401</a></td><td colspan="1">Bulk Zip Download doesn't create Audit entry for each item downloaded</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30399">NXP-30399</a></td><td colspan="1">Fix Transaction timeout during nuxeoDriveFileSystemDeletionListener</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30427">NXP-30427</a></td><td colspan="1">Retry file move with NoSuchFileException but the file exists</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30266">NXP-30266</a></td><td colspan="1">Fix elasticsearch indexing of property 'ecm:proxyVersionableId' for proxies</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30437">NXP-30437</a></td><td colspan="1">Fix GroupChangesTestSuite.testGroupChangesOnSyncRoot randomly failing with PostgreSQL</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30457">NXP-30457</a></td><td colspan="1">Fix NPE when loading corrupted NuxeoPackage</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30450">NXP-30450</a></td><td colspan="1">Support filtering when reprocessing DLQ Work</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30417">NXP-30417</a></td><td colspan="1">Check immediate parent when emptying trash</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30401">NXP-30401</a></td><td colspan="1">Bulk Zip Download doesn't create Audit entry for each item downloaded</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30332">NXP-30332</a></td><td colspan="1">Fix matching of subconverter's source MIME type</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30200">NXP-30200</a></td><td colspan="1">Manage the case where workflow definitions have changed</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30266">NXP-30266</a></td><td colspan="1">Fix elasticsearch indexing of property 'ecm:proxyVersionableId' for proxies</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30399">NXP-30399</a></td><td colspan="1">Fix Transaction timeout during nuxeoDriveFileSystemDeletionListener</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30437">NXP-30437</a></td><td colspan="1">Fix GroupChangesTestSuite.testGroupChangesOnSyncRoot randomly failing with PostgreSQL</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30412">NXP-30412</a></td><td colspan="1">S3 GC must keep blobs added during GC</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30402">NXP-30402</a></td><td colspan="1">Fix converter 'image2pdf'</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -81,8 +119,8 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1357">ELEMENTS-1357</a></td><td colspan="1">Fix visual and ergonomy issues with the Dark theme</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1350">ELEMENTS-1350</a></td><td colspan="1">nuxeo-document-acl-table cannot remove permissions in custom ACLs</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1332">ELEMENTS-1332</a></td><td colspan="1">Fix nuxeo-document-preview render of doctype extending Note</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1315">ELEMENTS-1315</a></td><td colspan="1">Translate the label lockToggleButton.unlock.error.unexpectedError</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1332">ELEMENTS-1332</a></td><td colspan="1">Fix nuxeo-document-preview render of doctype extending Note</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30304">NXP-30304</a></td><td colspan="1">Do not log password when failing to connect to Kafka</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30250">NXP-30250</a></td><td colspan="1">Fix null version on doc inside folder copied from clipboard </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30122">NXP-30122</a></td><td colspan="1">Fix thumbnails computation when importing a large PDF with S3 BlobProvider</td></tr>
@@ -821,13 +859,13 @@
 
 #### Improvement(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27823">NXP-27823</a></td><td colspan="1">Home page retrieves all tasks at once</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28716">NXP-28716</a></td><td colspan="1">Allow simple S3 blob provider implementation override, and use proper require</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28597">NXP-28597</a></td><td colspan="1">Implements facet API on SimpleDocumentModel</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28558">NXP-28558</a></td><td colspan="1">SchedulerService may fail when starting multiple Nuxeo nodes</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28185">NXP-28185</a></td><td colspan="1">Allow avoiding use of the HTTP proxy for S3 connections if the S3 endpoint is internal</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27657">NXP-27657</a></td><td colspan="1">Enable S3 Transfer Acceleration</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28254">NXP-28254</a></td><td colspan="1">Fix users who participate to a conversation do not receive notifications</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27823">NXP-27823</a></td><td colspan="1">Home page retrieves all tasks at once</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28599">NXP-28599</a></td><td colspan="1">Blob properties should expose final URL if possible</td></tr>
 </tbody></table></div>
 
@@ -1110,12 +1148,12 @@
 #### Improvement(s)
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28093">NXP-28093</a></td><td colspan="1">Make download service deal with HEAD efficiently</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27346">NXP-27346</a></td><td colspan="1">Don't timeout during long imports</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28092">NXP-28092</a></td><td colspan="1">Add Digest and Last-Modified negotiation to download service</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28005">NXP-28005</a></td><td colspan="1">Refactor DownloadService.downloadBlob to use builder pattern</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27337">NXP-27337</a></td><td colspan="1">Use the Nuxeo DownloadService framework for CMIS downloads</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27805">NXP-27805</a></td><td colspan="1">S3BinaryManager: allow configurable digest </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28074">NXP-28074</a></td><td colspan="1">Upgrade Jackson to 2.10.0</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27346">NXP-27346</a></td><td colspan="1">Don't timeout during long imports</td></tr>
 </tbody></table></div>
 
 #### Clean up(s)
