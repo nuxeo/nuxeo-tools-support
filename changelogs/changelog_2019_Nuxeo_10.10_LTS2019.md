@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-50">Hotfix 50</a></td><td colspan="1">2021-07-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-49">Hotfix 49</a></td><td colspan="1">2021-06-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-48">Hotfix 48</a></td><td colspan="1">2021-06-09</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-47">Hotfix 47</a></td><td colspan="1">2021-05-17</td><td colspan="1">No</td></tr>
@@ -53,41 +54,70 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 50](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21417)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30500">NXP-30500</a></td><td colspan="1">Prevent concurrent exception during video conversion</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30463">NXP-30463</a></td><td colspan="1">Fix "The specified block list is invalid" error with Azure</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30479">NXP-30479</a></td><td colspan="1">Elasticsearch.BulkIndex should work in Multi-repository (backport)</td></tr>
+</tbody></table></div>
+
+#### New Feature(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30482">NXP-30482</a></td><td colspan="1">Register a default OAuth2 client for Nuxeo Drive</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30505">NXP-30505</a></td><td colspan="1">Upgrade Tomcat to 9.0.50</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30369">NXP-30369</a></td><td colspan="1">Process the picture views in a transaction with a dedicated timeout</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29078">NXP-29078</a></td><td colspan="1">Stream AuditLogWriter processing cannot be parallelized</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 49](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21287)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1372">ELEMENTS-1372</a></td><td colspan="1">Fix Quill buttons in Safari 14</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1369">ELEMENTS-1369</a></td><td colspan="1">nuxeo-path-suggestion not displaying entries after adding nxql_search to elasticsearch override</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30360">NXP-30360</a></td><td colspan="1">Fix search results not being sorted when a quick filter is used</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1372">ELEMENTS-1372</a></td><td colspan="1">Fix Quill buttons in Safari 14</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30219">NXP-30219</a></td><td colspan="1">Fix re-indexing of proxy when parent folder of target document is moved to the trash</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30062">NXP-30062</a></td><td colspan="1">Handle mails with attachments without Content-Disposition</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30434">NXP-30434</a></td><td colspan="1">User Favorites Not Showing in WEB UI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30417">NXP-30417</a></td><td colspan="1">Check immediate parent when emptying trash</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30326">NXP-30326</a></td><td colspan="1">Fix long-running thumbnail generation for large office files</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30281">NXP-30281</a></td><td colspan="1">Add a MongoDB index for Drive getChangeSummary</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30485">NXP-30485</a></td><td colspan="1">Fix TestPictureResize systematic failure in 10.10 T&P</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30326">NXP-30326</a></td><td colspan="1">Fix long-running thumbnail generation for large office files</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30360">NXP-30360</a></td><td colspan="1">Fix search results not being sorted when a quick filter is used</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30281">NXP-30281</a></td><td colspan="1">Add a MongoDB index for Drive getChangeSummary</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30077">NXP-30077</a></td><td colspan="1">VideoConversionWork should handle unknown mime-type</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30465">NXP-30465</a></td><td colspan="1">Fix temporary blob move to transient storage when parent folders are deleted by the GC</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30192">NXP-30192</a></td><td colspan="1">Handle permission restriction in DocumentModelResolver</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30170">NXP-30170</a></td><td colspan="1">Don't recreate workflows at startup</td></tr>
 </tbody></table></div>
 
 #### Task(s)
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30444">NXP-30444</a></td><td colspan="1">Fix Nuxeo 10.10 build</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30475">NXP-30475</a></td><td colspan="1">Upgrade Tomcat to 9.0.48</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30477">NXP-30477</a></td><td colspan="1">Add mime type for mts blob</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30382">NXP-30382</a></td><td colspan="1">Tune recomputeThumbnail bulk action to avoid transaction timeout or stream failure</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30294">NXP-30294</a></td><td colspan="1">Possible OOM on XLS fulltext extraction with POI</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30477">NXP-30477</a></td><td colspan="1">Add mime type for mts blob</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30469">NXP-30469</a></td><td colspan="1">Add explicit timeout on Video conversion</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30145">NXP-30145</a></td><td colspan="1">Add a parameter not to save the document in the operation 'Document.SetMetadataFromBlob'</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28861">NXP-28861</a></td><td colspan="1">Add an index on the nuxeo.aceinfo:id field for MongoDB repository</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30348">NXP-30348</a></td><td colspan="1">Return a HTTP 404 (not found) when handling uploads with a missing associated file</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30243">NXP-30243</a></td><td colspan="1">Add index on collection:documentIds to optimize RemovedCollectionWork</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30215">NXP-30215</a></td><td colspan="1">Add indexes for user and group directories</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30432">NXP-30432</a></td><td colspan="1">Add MongoDB indexes on fetch annotation requests</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30470">NXP-30470</a></td><td colspan="1">Use longer Elastic timeout for write operation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30438">NXP-30438</a></td><td colspan="1">Compute update thumbnail in a dedicated transaction per documents</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30215">NXP-30215</a></td><td colspan="1">Add indexes for user and group directories</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30243">NXP-30243</a></td><td colspan="1">Add index on collection:documentIds to optimize RemovedCollectionWork</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30368">NXP-30368</a></td><td colspan="1">Take into account fulltext maxSize when computing text in FulltextExtractorWork</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30432">NXP-30432</a></td><td colspan="1">Add MongoDB indexes on fetch annotation requests</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30145">NXP-30145</a></td><td colspan="1">Add a parameter not to save the document in the operation 'Document.SetMetadataFromBlob'</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30456">NXP-30456</a></td><td colspan="1">Allow User to specify SSL protocol</td></tr>
 </tbody></table></div>
 
@@ -104,8 +134,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30266">NXP-30266</a></td><td colspan="1">Fix elasticsearch indexing of property 'ecm:proxyVersionableId' for proxies</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30399">NXP-30399</a></td><td colspan="1">Fix Transaction timeout during nuxeoDriveFileSystemDeletionListener</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30437">NXP-30437</a></td><td colspan="1">Fix GroupChangesTestSuite.testGroupChangesOnSyncRoot randomly failing with PostgreSQL</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30412">NXP-30412</a></td><td colspan="1">S3 GC must keep blobs added during GC</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30402">NXP-30402</a></td><td colspan="1">Fix converter 'image2pdf'</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30412">NXP-30412</a></td><td colspan="1">S3 GC must keep blobs added during GC</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -215,8 +245,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30182">NXP-30182</a></td><td colspan="1">Increase Bulk Status TTL on completion with error</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30231">NXP-30231</a></td><td colspan="1">Blob digest must be synthesized properly</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28450">NXP-28450</a></td><td colspan="1">Allow configuration of Signature Algorithm for SAML</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30171">NXP-30171</a></td><td colspan="1">Return http status code based on exception thrown</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30130">NXP-30130</a></td><td colspan="1">Command line executor must apply a timeout</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30171">NXP-30171</a></td><td colspan="1">Return http status code based on exception thrown</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -246,10 +276,10 @@
 
 #### New Feature(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29516">NXP-29516</a></td><td colspan="1">Allow efficient search by blob key</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30043">NXP-30043</a></td><td colspan="1">Use new blob key for old blob used concurrently with async digest computation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30044">NXP-30044</a></td><td colspan="1">Async blob digest computation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30119">NXP-30119</a></td><td colspan="1">Process blobDigestUpdated event in Nuxeo Drive Server</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29516">NXP-29516</a></td><td colspan="1">Allow efficient search by blob key</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -670,7 +700,6 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1182">ELEMENTS-1182</a></td><td colspan="1">Fix regression on nuxeo-date-picker </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1181">ELEMENTS-1181</a></td><td colspan="1">Fix dropdown for multivalued directory field in Web UI</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29080">NXP-29080</a></td><td colspan="1">Fix RetentionManager init </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28677">NXP-28677</a></td><td colspan="1">Remove warn on unknown Kafka admin property</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28709">NXP-28709</a></td><td colspan="1">Fix Silent failure in automation Bulk.RunAction/@async when using invalid action parameter</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28805">NXP-28805</a></td><td colspan="1">Review retention automation operation labels and descriptions</td></tr>
@@ -679,6 +708,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28935">NXP-28935</a></td><td colspan="1">Fix restoration of sub-sub children</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29122">NXP-29122</a></td><td colspan="1">S3DirectBatchHandler must work with the new S3BlobProvider</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27222">NXP-27222</a></td><td colspan="1">HotReload fails with Data file not found: data/users.csv</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29080">NXP-29080</a></td><td colspan="1">Fix RetentionManager init </td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
