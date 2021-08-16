@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-51">Hotfix 51</a></td><td colspan="1">2021-08-16</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-50">Hotfix 50</a></td><td colspan="1">2021-07-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-49">Hotfix 49</a></td><td colspan="1">2021-06-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-48">Hotfix 48</a></td><td colspan="1">2021-06-09</td><td colspan="1">No</td></tr>
@@ -52,6 +53,27 @@
 <tr><td colspan="1"><a href="#hotfix-03">Hotfix 03</a></td><td colspan="1">2019-03-21</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-02">Hotfix 02</a></td><td colspan="1">2019-03-07</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
+</tbody></table></div>
+
+## [Hotfix 51](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21447)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30533">NXP-30533</a></td><td colspan="1">Fix text expansion of default values</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30481">NXP-30481</a></td><td colspan="1">Upgrade LibreOffice to version 7.1.3.2 in Docker image</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30483">NXP-30483</a></td><td colspan="1">Fix wildcard behavior in sourceMimeType</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30523">NXP-30523</a></td><td colspan="1">Fix WOPI thread abusive naming</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30514">NXP-30514</a></td><td colspan="1">Docker image needs CJK fonts</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30526">NXP-30526</a></td><td colspan="1">Fix picture views generation with auto versioning</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30534">NXP-30534</a></td><td colspan="1">Spreadsheet editor should work with Content Security Policy</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30515">NXP-30515</a></td><td colspan="1">Fix NPE when retrieving tasks for User</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30484">NXP-30484</a></td><td colspan="1">Prevent Stream failure when invoking setProperties bulk action with invalid values</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28642">NXP-28642</a></td><td colspan="1">Fix visual bug while importing more than 1 doc file</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27596">NXP-27596</a></td><td colspan="1">Web Engine module 'EasyShare' should be overridable</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30342">NXP-30342</a></td><td colspan="1">Allow for granted users to delete and trash content under retention or legal hold</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 50](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21417)
@@ -111,7 +133,6 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28861">NXP-28861</a></td><td colspan="1">Add an index on the nuxeo.aceinfo:id field for MongoDB repository</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30348">NXP-30348</a></td><td colspan="1">Return a HTTP 404 (not found) when handling uploads with a missing associated file</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30470">NXP-30470</a></td><td colspan="1">Use longer Elastic timeout for write operation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30438">NXP-30438</a></td><td colspan="1">Compute update thumbnail in a dedicated transaction per documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30215">NXP-30215</a></td><td colspan="1">Add indexes for user and group directories</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30243">NXP-30243</a></td><td colspan="1">Add index on collection:documentIds to optimize RemovedCollectionWork</td></tr>
@@ -119,6 +140,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30432">NXP-30432</a></td><td colspan="1">Add MongoDB indexes on fetch annotation requests</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30145">NXP-30145</a></td><td colspan="1">Add a parameter not to save the document in the operation 'Document.SetMetadataFromBlob'</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30456">NXP-30456</a></td><td colspan="1">Allow User to specify SSL protocol</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30470">NXP-30470</a></td><td colspan="1">Use longer Elastic timeout for write operation</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 48](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21246)
@@ -291,8 +313,8 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1313">ELEMENTS-1313</a></td><td colspan="1">Discard non videos from the sources for the video preview</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30173">NXP-30173</a></td><td colspan="1">Allow logging costly S3 downloads</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30120">NXP-30120</a></td><td colspan="1">Use document user change token for WOPI file version</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30168">NXP-30168</a></td><td colspan="1">Execute batch upload completion outside of a transaction</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30120">NXP-30120</a></td><td colspan="1">Use document user change token for WOPI file version</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 41](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21061)
@@ -325,12 +347,12 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1299">ELEMENTS-1299</a></td><td colspan="1">Backport fix for nuxeo-path-suggestion validation error on paper-typeahead</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29810">NXP-29810</a></td><td colspan="1">Document.Mail should respect the setting of the Nuxeo SMTP services state</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29865">NXP-29865</a></td><td colspan="1">Fix JSF Email document notification to mail all members of a group</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30010">NXP-30010</a></td><td colspan="1">Improve concurrent updates removing elements from lists on MongoDB </td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29867">NXP-29867</a></td><td colspan="1">Fix custom HTTP code thrown by event listener being ignored when DnD'ing a file in a folder in the Web UI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29983">NXP-29983</a></td><td colspan="1">Improve constraint violation error message in REST API</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30048">NXP-30048</a></td><td colspan="1">Improve concurrent delete of proxies</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29723">NXP-29723</a></td><td colspan="1">Implement event information for workflowTaskReassigned and workflowTaskDelegated</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29966">NXP-29966</a></td><td colspan="1">Fix recomputation processes when creating a version for documents with 'Video' facet</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30010">NXP-30010</a></td><td colspan="1">Improve concurrent updates removing elements from lists on MongoDB </td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30048">NXP-30048</a></td><td colspan="1">Improve concurrent delete of proxies</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -350,12 +372,12 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1263">ELEMENTS-1263</a></td><td colspan="1"> Make the bulk download popup appear as soon as the ZIP file is ready server-side</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29823">NXP-29823</a></td><td colspan="1">Fix update of a string in a multivalued complex with the "Single Directory Suggestion" widget</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-23110">NXP-23110</a></td><td colspan="1">Wrong saved search when clicking Search tab</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-22976">NXP-22976</a></td><td colspan="1">Fix bookmarkable search URL on selection</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29786">NXP-29786</a></td><td colspan="1">Fix Picture inclusion in Note editor</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30018">NXP-30018</a></td><td colspan="1">Fix stackoverflow error when using 'nuxeo.http.proxy.pac.url' with HF35</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25485">NXP-25485</a></td><td colspan="1">Take into account the local configuration to filter the document types available for creation in WebUI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29928">NXP-29928</a></td><td colspan="1">Fix label for Event based input in Retention Rule page</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-23110">NXP-23110</a></td><td colspan="1">Wrong saved search when clicking Search tab</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -895,8 +917,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28185">NXP-28185</a></td><td colspan="1">Allow avoiding use of the HTTP proxy for S3 connections if the S3 endpoint is internal</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27657">NXP-27657</a></td><td colspan="1">Enable S3 Transfer Acceleration</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28254">NXP-28254</a></td><td colspan="1">Fix users who participate to a conversation do not receive notifications</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27823">NXP-27823</a></td><td colspan="1">Home page retrieves all tasks at once</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28599">NXP-28599</a></td><td colspan="1">Blob properties should expose final URL if possible</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27823">NXP-27823</a></td><td colspan="1">Home page retrieves all tasks at once</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 22](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20406)
