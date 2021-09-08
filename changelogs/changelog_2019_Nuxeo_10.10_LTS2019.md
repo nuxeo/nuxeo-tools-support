@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-52">Hotfix 52</a></td><td colspan="1">2021-09-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-51">Hotfix 51</a></td><td colspan="1">2021-08-16</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-50">Hotfix 50</a></td><td colspan="1">2021-07-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-49">Hotfix 49</a></td><td colspan="1">2021-06-30</td><td colspan="1">No</td></tr>
@@ -55,18 +56,48 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 52](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21468)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1383">ELEMENTS-1383</a></td><td colspan="1">Page Reload on Search Results shows no results before showing Loading</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30570">NXP-30570</a></td><td colspan="1">Bulk command scroller should be aligned on the underlying page provider</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29793">NXP-29793</a></td><td colspan="1">Display an error when trying to create a user which already exists</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30513">NXP-30513</a></td><td colspan="1">Return JSON with error message instead of HTML response for Generic HTTP 500 error</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30499">NXP-30499</a></td><td colspan="1">Bulk computation should not fail when the bulk command does not exist</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30572">NXP-30572</a></td><td colspan="1">Fix permission filtering for administrators</td></tr>
+</tbody></table></div>
+
+#### New Feature(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30541">NXP-30541</a></td><td colspan="1">Use a dedicated Work queue for ACL Propagation</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30556">NXP-30556</a></td><td colspan="1">Upgrade Tomcat to 9.0.52</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30521">NXP-30521</a></td><td colspan="1">Log Nuxeo version and HF on startup</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30366">NXP-30366</a></td><td colspan="1">S3 blob storage: adding depth-based prefixes to object names</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30536">NXP-30536</a></td><td colspan="1">Provide options at nuxeo.conf level to tune Bulk Re-indexing</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30569">NXP-30569</a></td><td colspan="1">StudioHotReload operation to uninstall all studio package version</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30571">NXP-30571</a></td><td colspan="1">Upgrade ant-assembly-maven-plugin to 2.1.5</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 51](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21447)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30533">NXP-30533</a></td><td colspan="1">Fix text expansion of default values</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30481">NXP-30481</a></td><td colspan="1">Upgrade LibreOffice to version 7.1.3.2 in Docker image</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30534">NXP-30534</a></td><td colspan="1">Spreadsheet editor should work with Content Security Policy</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30526">NXP-30526</a></td><td colspan="1">Fix picture views generation with auto versioning</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30515">NXP-30515</a></td><td colspan="1">Fix NPE when retrieving tasks for User</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30483">NXP-30483</a></td><td colspan="1">Fix wildcard behavior in sourceMimeType</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30523">NXP-30523</a></td><td colspan="1">Fix WOPI thread abusive naming</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30514">NXP-30514</a></td><td colspan="1">Docker image needs CJK fonts</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30526">NXP-30526</a></td><td colspan="1">Fix picture views generation with auto versioning</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30534">NXP-30534</a></td><td colspan="1">Spreadsheet editor should work with Content Security Policy</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30515">NXP-30515</a></td><td colspan="1">Fix NPE when retrieving tasks for User</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30484">NXP-30484</a></td><td colspan="1">Prevent Stream failure when invoking setProperties bulk action with invalid values</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30514">NXP-30514</a></td><td colspan="1">Docker image needs CJK fonts</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30481">NXP-30481</a></td><td colspan="1">Upgrade LibreOffice to version 7.1.3.2 in Docker image</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28642">NXP-28642</a></td><td colspan="1">Fix visual bug while importing more than 1 doc file</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27596">NXP-27596</a></td><td colspan="1">Web Engine module 'EasyShare' should be overridable</td></tr>
 </tbody></table></div>
@@ -108,7 +139,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30219">NXP-30219</a></td><td colspan="1">Fix re-indexing of proxy when parent folder of target document is moved to the trash</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30062">NXP-30062</a></td><td colspan="1">Handle mails with attachments without Content-Disposition</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30434">NXP-30434</a></td><td colspan="1">User Favorites Not Showing in WEB UI</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30417">NXP-30417</a></td><td colspan="1">Check immediate parent when emptying trash</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30485">NXP-30485</a></td><td colspan="1">Fix TestPictureResize systematic failure in 10.10 T&P</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30326">NXP-30326</a></td><td colspan="1">Fix long-running thumbnail generation for large office files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30360">NXP-30360</a></td><td colspan="1">Fix search results not being sorted when a quick filter is used</td></tr>
@@ -117,6 +147,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30465">NXP-30465</a></td><td colspan="1">Fix temporary blob move to transient storage when parent folders are deleted by the GC</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30192">NXP-30192</a></td><td colspan="1">Handle permission restriction in DocumentModelResolver</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30170">NXP-30170</a></td><td colspan="1">Don't recreate workflows at startup</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30417">NXP-30417</a></td><td colspan="1">Check immediate parent when emptying trash</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -200,10 +231,6 @@
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1326">ELEMENTS-1326</a></td><td colspan="1">Fix Task form validation when language is set to arabic</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29626">NXP-29626</a></td><td colspan="1">Fix webengine multipart form fields retrieval when uploading files</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29641">NXP-29641</a></td><td colspan="1">Fix component manager events on pending registrations</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30327">NXP-30327</a></td><td colspan="1">Fix Connect Report unit test</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30333">NXP-30333</a></td><td colspan="1">Key/Value Store GC shouldn't remove cache intermediate files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30311">NXP-30311</a></td><td colspan="1">Component that fails to start should be unregistered</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30312">NXP-30312</a></td><td colspan="1">Prevent creation of empty thumbnail on audio file</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30179">NXP-30179</a></td><td colspan="1">Libreoffice 5.3.6.1 hangs on some HTML to PDF conversion</td></tr>
@@ -211,6 +238,10 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30247">NXP-30247</a></td><td colspan="1">When exifTool fails, file:content gets deleted</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30328">NXP-30328</a></td><td colspan="1">Fix enabling of async digest on first start</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30314">NXP-30314</a></td><td colspan="1">Kafka topic not available after creation</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29626">NXP-29626</a></td><td colspan="1">Fix webengine multipart form fields retrieval when uploading files</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29641">NXP-29641</a></td><td colspan="1">Fix component manager events on pending registrations</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30327">NXP-30327</a></td><td colspan="1">Fix Connect Report unit test</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30333">NXP-30333</a></td><td colspan="1">Key/Value Store GC shouldn't remove cache intermediate files</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -230,7 +261,6 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1324">ELEMENTS-1324</a></td><td colspan="1">Fix CSV Export</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1329">ELEMENTS-1329</a></td><td colspan="1">nuxeo-path-suggestion is marked as invalid in the first display</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30188">NXP-30188</a></td><td colspan="1">Dedicate default WorkManager queue for Custom Works</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30269">NXP-30269</a></td><td colspan="1">Remove picture migration at startup</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30270">NXP-30270</a></td><td colspan="1">ComponentManager listeners should be called within a try/catch</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30238">NXP-30238</a></td><td colspan="1">Security policy to filter annotations is not working in NEV</td></tr>
@@ -240,6 +270,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30271">NXP-30271</a></td><td colspan="1">Key/Value Store GC shouldn't remove cache temporary files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30083">NXP-30083</a></td><td colspan="1">Fix CAS authentication anonymous client change of behavior introduced with NXP-23246</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30244">NXP-30244</a></td><td colspan="1">Prevent Transaction Timeout during updateThumbnailListener</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30188">NXP-30188</a></td><td colspan="1">Dedicate default WorkManager queue for Custom Works</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -262,12 +293,12 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1318">ELEMENTS-1318</a></td><td colspan="1">Fix CSV export of NXQL search in Web UI when using IN operator</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30056">NXP-30056</a></td><td colspan="1">Use OfficePreviewer to preview RTF documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30246">NXP-30246</a></td><td colspan="1">Fix bulk delete of Vocabulary metadata with spreadsheet editor</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26779">NXP-26779</a></td><td colspan="1">Inconsistent mimetype in webui file drag and drop</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30213">NXP-30213</a></td><td colspan="1">Fix Redis key/value store fetch of empty key list</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30182">NXP-30182</a></td><td colspan="1">Increase Bulk Status TTL on completion with error</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30231">NXP-30231</a></td><td colspan="1">Blob digest must be synthesized properly</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28450">NXP-28450</a></td><td colspan="1">Allow configuration of Signature Algorithm for SAML</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30130">NXP-30130</a></td><td colspan="1">Command line executor must apply a timeout</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-26779">NXP-26779</a></td><td colspan="1">Inconsistent mimetype in webui file drag and drop</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30171">NXP-30171</a></td><td colspan="1">Return http status code based on exception thrown</td></tr>
 </tbody></table></div>
 
@@ -649,11 +680,11 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29303">NXP-29303</a></td><td colspan="1">S3BlobProvider misses blob digest computation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28923">NXP-28923</a></td><td colspan="1">Fix blank screen in Spreadsheet Editor when column on a blob's property is included</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29139">NXP-29139</a></td><td colspan="1">Cannot remove blob that failed to upload</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29252">NXP-29252</a></td><td colspan="1">EasyShareFolder expiration notification is missing the title</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29256">NXP-29256</a></td><td colspan="1">Fix class UserMapperBasedResolver</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29171">NXP-29171</a></td><td colspan="1">Fix update of task's variable of type user/group using JSON entity type 'group' via REST API</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29099">NXP-29099</a></td><td colspan="1">Delete the related tasks when a Workflow instance is deleted</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28918">NXP-28918</a></td><td colspan="1">Fix JSF EL evaluation of a condition using a multi-valued property in a filter used by a picture conversion</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29252">NXP-29252</a></td><td colspan="1">EasyShareFolder expiration notification is missing the title</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
@@ -856,10 +887,10 @@
 ## [Hotfix 24](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=20507)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24967">NXP-24967</a></td><td colspan="1">Make saved search emails work</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28662">NXP-28662</a></td><td colspan="1">Trashed folder allows document creation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28770">NXP-28770</a></td><td colspan="1">Fix merge of MongoDB repository configuration descriptors</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27429">NXP-27429</a></td><td colspan="1">Using the search tool on iOS and Android in "vertical mode", buttons "Reinit" and "Search" are not reachable</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-24967">NXP-24967</a></td><td colspan="1">Make saved search emails work</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -1432,11 +1463,11 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27405">NXP-27405</a></td><td colspan="1">Fix picture size truncation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27316">NXP-27316</a></td><td colspan="1">Deliver Latest Available Lazy Stored Rendition</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27265">NXP-27265</a></td><td colspan="1">Disable Nuxeo Stream when nuxeo.stream.audit.enabled is set to false</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27320">NXP-27320</a></td><td colspan="1">Allow underscore character in LDAP queries</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27448">NXP-27448</a></td><td colspan="1">Button Forms are not applying autofocus</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27256">NXP-27256</a></td><td colspan="1">Cannot set lifecycle state with CSV importer in "import" mode</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27166">NXP-27166</a></td><td colspan="1">Weird rendering of zip content in nuxeo-document-preview</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27533">NXP-27533</a></td><td colspan="1">Fix possible NPE in AbstractRenditionBuilderWork cleanup</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27320">NXP-27320</a></td><td colspan="1">Allow underscore character in LDAP queries</td></tr>
 </tbody></table></div>
 
 #### Task(s)
