@@ -85,8 +85,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30673">NXP-30673</a></td><td colspan="1">Enable to set bulk query limit from PP rest invokation</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28316">NXP-28316</a></td><td colspan="1">Keep the platform fully available while performing a re-indexing with alias</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30702">NXP-30702</a></td><td colspan="1">Improve Groovy class loading in SegmentIOMapper</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30700">NXP-30700</a></td><td colspan="1">Bulk SetPropertiesAction - "VersioningOption" parameter does not take effect when Versioning Service is extended via XML Extension</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28535">NXP-28535</a></td><td colspan="1">Offer a configuration option to remove the mobile app banner notification</td></tr>
 </tbody></table></div>
 
 ## [Hotfix 54](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21507)
