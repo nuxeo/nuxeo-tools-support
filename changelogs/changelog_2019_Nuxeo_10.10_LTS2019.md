@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-61">Hotfix 61</a></td><td colspan="1">2022-05-18</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-60">Hotfix 60</a></td><td colspan="1">2022-04-26</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-59">Hotfix 59</a></td><td colspan="1">2022-04-04</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-58">Hotfix 58</a></td><td colspan="1">2022-01-27</td><td colspan="1">No</td></tr>
@@ -43,7 +44,7 @@
 <tr><td colspan="1"><a href="#hotfix-22">Hotfix 22</a></td><td colspan="1">2020-02-10</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2020-01-24</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-20">Hotfix 20</a></td><td colspan="1">2019-12-28</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-19">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-18">Hotfix 18</a></td><td colspan="1">2019-11-08</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-17">Hotfix 17</a></td><td colspan="1">2019-10-30</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-17">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-16">Hotfix 16</a></td><td colspan="1">2019-10-14</td><td colspan="1">No</td></tr>
@@ -64,23 +65,38 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 61](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21666)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30867">NXP-30867</a></td><td colspan="1">Author and Last Contributor name being set as "System" in aspera folder upload</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30919">NXP-30919</a></td><td colspan="1">Improve KV TransientStore GC resiliency on 10.10</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30928">NXP-30928</a></td><td colspan="1">DBS ReadACL propagation might be corrupted when distributed</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25007">NXP-25007</a></td><td colspan="1">Fix SAML logout process</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30989">NXP-30989</a></td><td colspan="1">Backport expired lock remove fix from upstream quartz-mongodb project</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30990">NXP-30990</a></td><td colspan="1">Fix elastic indexing retry mechanism when encountering socket timeout</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 60](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21652)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1478">ELEMENTS-1478</a></td><td colspan="1">Fix actions menu error "menu of 4 with varying number of elements"</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1480">ELEMENTS-1480</a></td><td colspan="1">Change password screen - provide information on password pattern so user is aware</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1481">ELEMENTS-1481</a></td><td colspan="1">Fix nuxeo-dialogs launched from custom RESULTS_SELECTION_ACTIONS buttons not displaying</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30964">NXP-30964</a></td><td colspan="1">Fix WARN in RenditionJsonEnricher</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30785">NXP-30785</a></td><td colspan="1">Use elastic word_delimiter_graph instead of word_delimiter to avoid indexing error</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30957">NXP-30957</a></td><td colspan="1">Elastic socket timeout should be aligned with request timeouts</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30278">NXP-30278</a></td><td colspan="1">Fix error message when setting an invalid password</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30520">NXP-30520</a></td><td colspan="1">Fix isNextPageAvailable in directory endpoint</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30964">NXP-30964</a></td><td colspan="1">Fix WARN in RenditionJsonEnricher</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30957">NXP-30957</a></td><td colspan="1">Elastic socket timeout should be aligned with request timeouts</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30785">NXP-30785</a></td><td colspan="1">Use elastic word_delimiter_graph instead of word_delimiter to avoid indexing error</td></tr>
 </tbody></table></div>
 
 #### New Feature(s)
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28296">NXP-28296</a></td><td colspan="1">Bulk Service should have a transactional behavior</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30980">NXP-30980</a></td><td colspan="1">Allow to update storage class to cold storage</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28296">NXP-28296</a></td><td colspan="1">Bulk Service should have a transactional behavior</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -107,7 +123,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1466">ELEMENTS-1466</a></td><td colspan="1">User schema: the vocabulary ID is displayed instead of the label</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1450">ELEMENTS-1450</a></td><td colspan="1">Fix auto-search when changing the select in nuxeo-date-picker</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30804">NXP-30804</a></td><td colspan="1">Fix startup errors when digestAsync is enabled</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30841">NXP-30841</a></td><td colspan="1">Improve indexing reliability when Elastic is overloaded</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30882">NXP-30882</a></td><td colspan="1">Upgrade PostgreSQL JDBC driver to version 42.2.25</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30858">NXP-30858</a></td><td colspan="1">Fix async binary metadata update when versioning documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30929">NXP-30929</a></td><td colspan="1">Do not export trashed documents into the ZIP Tree Export</td></tr>
@@ -123,6 +138,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30918">NXP-30918</a></td><td colspan="1">MakeBlob computation should be resilient to unknown command or status</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30931">NXP-30931</a></td><td colspan="1">Add DownloadBlobGuard to VCS</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30936">NXP-30936</a></td><td colspan="1">Fix unauthenticated git protocol on port 9418 is no longer supported</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30841">NXP-30841</a></td><td colspan="1">Improve indexing reliability when Elastic is overloaded</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -135,9 +151,8 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30878">NXP-30878</a></td><td colspan="1">Add property to set max_expansion on match_phrase_prefix operator</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30614">NXP-30614</a></td><td colspan="1">GC (Orphan Binary Cleanup) - Add logging</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30933">NXP-30933</a></td><td colspan="1">Trash/SetProperties actions should be resilient to sync listener failure</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30932">NXP-30932</a></td><td colspan="1">In case of transaction timeout error message should display the timeout value</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30899">NXP-30899</a></td><td colspan="1">ScrollingIndexingWorker should have its own transaction timeout</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30933">NXP-30933</a></td><td colspan="1">Trash/SetProperties actions should be resilient to sync listener failure</td></tr>
 </tbody></table></div>
 
 #### Clean up(s)
@@ -554,8 +569,8 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30271">NXP-30271</a></td><td colspan="1">Key/Value Store GC shouldn't remove cache temporary files</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30083">NXP-30083</a></td><td colspan="1">Fix CAS authentication anonymous client change of behavior introduced with NXP-23246</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30244">NXP-30244</a></td><td colspan="1">Prevent Transaction Timeout during updateThumbnailListener</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30239">NXP-30239</a></td><td colspan="1">Delay the start of Quartz scheduler to avoid database constraint violations</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30188">NXP-30188</a></td><td colspan="1">Dedicate default WorkManager queue for Custom Works</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30239">NXP-30239</a></td><td colspan="1">Delay the start of Quartz scheduler to avoid database constraint violations</td></tr>
 </tbody></table></div>
 
 #### Task(s)
@@ -690,7 +705,6 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29823">NXP-29823</a></td><td colspan="1">Fix update of a string in a multivalued complex with the "Single Directory Suggestion" widget</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-22976">NXP-22976</a></td><td colspan="1">Fix bookmarkable search URL on selection</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29786">NXP-29786</a></td><td colspan="1">Fix Picture inclusion in Note editor</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30018">NXP-30018</a></td><td colspan="1">Fix stackoverflow error when using 'nuxeo.http.proxy.pac.url' with HF35</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25485">NXP-25485</a></td><td colspan="1">Take into account the local configuration to filter the document types available for creation in WebUI</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29928">NXP-29928</a></td><td colspan="1">Fix label for Event based input in Retention Rule page</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-23110">NXP-23110</a></td><td colspan="1">Wrong saved search when clicking Search tab</td></tr>
