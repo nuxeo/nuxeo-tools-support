@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-62">Hotfix 62</a></td><td colspan="1">2022-06-14</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-61">Hotfix 61</a></td><td colspan="1">2022-05-18</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-60">Hotfix 60</a></td><td colspan="1">2022-04-26</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-59">Hotfix 59</a></td><td colspan="1">2022-04-04</td><td colspan="1">No</td></tr>
@@ -42,7 +43,7 @@
 <tr><td colspan="1"><a href="#hotfix-24">Hotfix 24</a></td><td colspan="1">2020-03-26</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-23">Hotfix 23</a></td><td colspan="1">2020-03-11</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-22">Hotfix 22</a></td><td colspan="1">2020-02-10</td><td colspan="1">No</td></tr>
-<tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2020-01-24</td><td colspan="1">No</td></tr>
+<tr><td colspan="1"><a href="#hotfix-21">Hotfix 21</a></td><td colspan="1">2020-01-24</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-21">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-20">Hotfix 20</a></td><td colspan="1">2019-12-28</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-19">Hotfix 19</a></td><td colspan="1">2019-12-10</td><td colspan="1"><a href="https://doc.nuxeo.com/nxdoc/hotfixes-installation-notes-for-nuxeo-platform-lts-2019/#hotfix-19">Yes</a></td></tr>
 <tr><td colspan="1"><a href="#hotfix-18">Hotfix 18</a></td><td colspan="1">2019-11-08</td><td colspan="1">No</td></tr>
@@ -65,10 +66,32 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 62](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21688)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1492">ELEMENTS-1492</a></td><td colspan="1">nuxeo-video-viewer plays only audio of video conversion</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31016">NXP-31016</a></td><td colspan="1">Tune the CMIS query during login to get platform information</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31005">NXP-31005</a></td><td colspan="1">Fix elasticsearch indexing of property 'ecm:proxyTargetId' for proxies</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30926">NXP-30926</a></td><td colspan="1">Fix parent workflow abandon process</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30944">NXP-30944</a></td><td colspan="1">Unable to view documents after indexing with elasticsearch.manageAlias.enabled=true</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30986">NXP-30986</a></td><td colspan="1">Handle array/list of blobs when writing entries to Audit stream</td></tr>
+</tbody></table></div>
+
+#### Task(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31013">NXP-31013</a></td><td colspan="1">Upgrade Tomcat to 9.0.63</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31057">NXP-31057</a></td><td colspan="1">Upgrade Tomcat to 9.0.64</td></tr>
+</tbody></table></div>
+
+#### Improvement(s)
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31003">NXP-31003</a></td><td colspan="1">Have a way to trace fulltext search performed on repository</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30805">NXP-30805</a></td><td colspan="1">Route long indexing command to the Bulk Service keeping WM indexing near realtime</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 61](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21666)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30867">NXP-30867</a></td><td colspan="1">Author and Last Contributor name being set as "System" in aspera folder upload</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30919">NXP-30919</a></td><td colspan="1">Improve KV TransientStore GC resiliency on 10.10</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30928">NXP-30928</a></td><td colspan="1">DBS ReadACL propagation might be corrupted when distributed</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-25007">NXP-25007</a></td><td colspan="1">Fix SAML logout process</td></tr>
@@ -252,8 +275,8 @@
 ## [Hotfix 55](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21526)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1434">ELEMENTS-1434</a></td><td colspan="1">"No Results" shown before loading data</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1426">ELEMENTS-1426</a></td><td colspan="1">Display an error when trying to create a user which already exists</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1434">ELEMENTS-1434</a></td><td colspan="1">"No Results" shown before loading data</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30545">NXP-30545</a></td><td colspan="1">Improve robustness of DBSSession.remove(String rootId) wrt reference of non-existent proxies</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30686">NXP-30686</a></td><td colspan="1"> Document.DeleteRelation not removing relation when "outgoing" parameter is "false"</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30657">NXP-30657</a></td><td colspan="1">Fix poor performance of automation helper functions</td></tr>
@@ -389,7 +412,6 @@
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30533">NXP-30533</a></td><td colspan="1">Fix text expansion of default values</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30534">NXP-30534</a></td><td colspan="1">Spreadsheet editor should work with Content Security Policy</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30526">NXP-30526</a></td><td colspan="1">Fix picture views generation with auto versioning</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30483">NXP-30483</a></td><td colspan="1">Fix wildcard behavior in sourceMimeType</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30523">NXP-30523</a></td><td colspan="1">Fix WOPI thread abusive naming</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30484">NXP-30484</a></td><td colspan="1">Prevent Stream failure when invoking setProperties bulk action with invalid values</td></tr>
@@ -398,6 +420,7 @@
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-28642">NXP-28642</a></td><td colspan="1">Fix visual bug while importing more than 1 doc file</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30515">NXP-30515</a></td><td colspan="1">Fix NPE when retrieving tasks for User</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-27596">NXP-27596</a></td><td colspan="1">Web Engine module 'EasyShare' should be overridable</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30526">NXP-30526</a></td><td colspan="1">Fix picture views generation with auto versioning</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
