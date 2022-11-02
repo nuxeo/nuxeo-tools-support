@@ -2,6 +2,7 @@
 
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><b>Hotfix reference</b></td><td colspan="1"><b>Release date</b></td><td colspan="1"><b>Installation notes</b></td></tr>
+<tr><td colspan="1"><a href="#hotfix-67">Hotfix 67</a></td><td colspan="1">2022-11-02</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-66">Hotfix 66</a></td><td colspan="1">2022-09-22</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-65">Hotfix 65</a></td><td colspan="1">2022-08-30</td><td colspan="1">No</td></tr>
 <tr><td colspan="1"><a href="#hotfix-64">Hotfix 64</a></td><td colspan="1">2022-08-05</td><td colspan="1">No</td></tr>
@@ -70,18 +71,30 @@
 <tr><td colspan="1"><a href="#hotfix-01">Hotfix 01</a></td><td colspan="1">2019-02-14</td><td colspan="1">No</td></tr>
 </tbody></table></div>
 
+## [Hotfix 67](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21831)
+#### Main correction(s) provided
+<div><table class="hover"><tbody>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31283">NXP-31283</a></td><td colspan="1">Fix concurrent Stream initialization failure</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31305">NXP-31305</a></td><td colspan="1">Fix TestAggregates random failure</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31282">NXP-31282</a></td><td colspan="1">Indexing should support corrupted properties</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-29416">NXP-29416</a></td><td colspan="1">Add an explicite dependency on nuxeo-core-cache in nuxeo-platform-usermanager-core</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30629">NXP-30629</a></td><td colspan="1">Fix NPE when overriding a binary metadata rule</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30425">NXP-30425</a></td><td colspan="1">stream.sh workCat fails when Work cannot be loaded without runtime</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30566">NXP-30566</a></td><td colspan="1">Fix creation of a 'OAuth 2 Service Provider' with just blank character(s)</td></tr>
+</tbody></table></div>
+
 ## [Hotfix 66](https://jira.nuxeo.com:443/secure/ReleaseNote.jspa?projectId=10011&version=21817)
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1514">ELEMENTS-1514</a></td><td colspan="1">handle error if Folder included in upload</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31199">NXP-31199</a></td><td colspan="1">Fix REST API when setting an Integer property with an empty String</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31244">NXP-31244</a></td><td colspan="1">Fix race condition when reading Work state from KV store</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30565">NXP-30565</a></td><td colspan="1">Avoid race condition during Elasticsearch index initialization</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31220">NXP-31220</a></td><td colspan="1">Avoid dumping very large record content on failure</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31167">NXP-31167</a></td><td colspan="1">Fix ACL setting in structure template when applied by non-admin users</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31267">NXP-31267</a></td><td colspan="1">Make sure DocumentNotFound exception message always includes the doc id</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31268">NXP-31268</a></td><td colspan="1">Index bulk action should not terminate on corrupted documents</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31224">NXP-31224</a></td><td colspan="1">setProperties Bulk action should handle constraint violation</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-31244">NXP-31244</a></td><td colspan="1">Fix race condition when reading Work state from KV store</td></tr>
 </tbody></table></div>
 
 #### Improvement(s)
@@ -202,8 +215,8 @@
 #### Main correction(s) provided
 <div><table class="hover"><tbody>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1480">ELEMENTS-1480</a></td><td colspan="1">Change password screen - provide information on password pattern so user is aware</td></tr>
-<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1481">ELEMENTS-1481</a></td><td colspan="1">Fix nuxeo-dialogs launched from custom RESULTS_SELECTION_ACTIONS buttons not displaying</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1478">ELEMENTS-1478</a></td><td colspan="1">Fix actions menu error "menu of 4 with varying number of elements"</td></tr>
+<tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/ELEMENTS-1481">ELEMENTS-1481</a></td><td colspan="1">Fix nuxeo-dialogs launched from custom RESULTS_SELECTION_ACTIONS buttons not displaying</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30785">NXP-30785</a></td><td colspan="1">Use elastic word_delimiter_graph instead of word_delimiter to avoid indexing error</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30520">NXP-30520</a></td><td colspan="1">Fix isNextPageAvailable in directory endpoint</td></tr>
 <tr><td colspan="1"><a href="https://jira.nuxeo.com:443/browse/NXP-30278">NXP-30278</a></td><td colspan="1">Fix error message when setting an invalid password</td></tr>
